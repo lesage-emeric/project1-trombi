@@ -1,3 +1,121 @@
+.cardBack {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 30%;
+  background-color: rgb(57, 57, 160);
+}
+.pokewildex {
+  display: flex;
+  justify-content: center;
+}
+.photoPro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 75%;
+  border-radius: 200%;
+  margin: auto;
+}
+.name {
+  margin: 10px;
+}
+.cardBack h6 {
+  width: 100%;
+  text-align: center;
+  color: rgb(230, 216, 21);
+  margin: auto;
+}
+.h6return {
+  transform: rotate(180deg);
+} /* * {
+    margin: 0;
+    padding: 0;
+} */
+
+#logoWildex {
+  height: 9em;
+  width: 20rem;
+  display: block;
+  margin: auto;
+}
+
+nav {
+  background-color: #ffcc01;
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 30px;
+}
+
+.filter {
+  padding: 30px;
+}
+
+#search {
+  padding: 5px;
+  border-radius: 15px;
+  width: 20rem;
+}
+
+#navSentence {
+  font-size: 1.2rem;
+  margin-left: 53rem;
+}
+
+.cardFront {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  height: 38rem;
+  width: 30rem;
+}
+
+.articleCardFront {
+  display: flex;
+  flex-flow: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+}
+
+.logoGitHub,
+.logoLinkedin {
+  height: 3rem;
+  width: 3rem;
+  margin: 50px 5px 5px 5px;
+}
+
+.titleCardFront {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titreCardFront,
+.titre2CardFront {
+  font-size: 1.3rem;
+}
+
+.pictureCardFront {
+  height: 15rem;
+  width: 12rem;
+  margin-left: 130px;
+}
+
+.quoteCardFront {
+  font-style: italic;
+  text-align: justify;
+  padding: 5px;
+}
+
+.hobbies {
+  text-align: justify;
+  padding: 5px;
+}
+
 :root {
   --couleur-classeur: rgb(96, 106, 178);
 }
