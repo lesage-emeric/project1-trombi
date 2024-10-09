@@ -1,4 +1,36 @@
-/* * {
+.cardBack {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 30%;
+  background-color: rgb(57, 57, 160);
+}
+.pokewildex {
+  display: flex;
+  justify-content: center;
+}
+.photoPro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 75%;
+  border-radius: 200%;
+  margin: auto;
+}
+.name {
+  margin: 10px;
+}
+.cardBack h6 {
+  width: 100%;
+  text-align: center;
+  color: rgb(230, 216, 21);
+  margin: auto;
+}
+.h6return {
+  transform: rotate(180deg);
+}/* * {
     margin: 0;
     padding: 0;
 } */
