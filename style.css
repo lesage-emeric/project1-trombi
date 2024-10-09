@@ -141,7 +141,7 @@ body {
   background-color: var(--couleur-classeur);
   border-radius: 18px;
   height: 75vh;
-  width: 40vw;
+  width: 30vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -150,6 +150,7 @@ body {
   border-style: dashed double none;
   border: 2px black;
 }
+
 /* chaque case individuelle du classeur */
 .case {
   border-width: 0px 2px 2px 2px;
@@ -159,6 +160,7 @@ body {
   height: 70%;
   width: 75%;
 }
+
 .classeur {
   display: flex;
   background-color: blanchedalmond;
@@ -167,4 +169,15 @@ body {
   border-bottom-right-radius: 3%;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
+}
+
+.classeurGauche {
+  background-color: rgb(81, 91, 163);
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 2px 0px 10px 1px black;
+}
+
+.classeurDroite {
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 10px 0px 5px 5px lightgray;
 }
