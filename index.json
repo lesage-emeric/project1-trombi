@@ -1,0 +1,6 @@
+const person = {
+    name: "",
+    lastname: "",
+    quote: "",
+    hobbies:["","",""],
+}
