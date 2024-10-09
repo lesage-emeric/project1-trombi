@@ -2,16 +2,30 @@
     border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
-    height: 60rem;
+    height: 45rem;
     width: 30rem;
+}
+
+.articleCardFront {
+    display: flex;
+    flex-flow: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: end;
 }
 
 .logoGitHub,
 .logoLinkedin {
     height: 3rem;
     width: 3rem;
-    float: right;
     margin: 60px 5px 5px 5px;
+}
+
+.titleCardFront {
+    display: flex;
+    justify-content: space-between;
 }
 
 .titreCardFront,
@@ -19,22 +33,23 @@
     font-size: 1.3rem;
 }
 
-.titre2CardFront {
-    text-align-last: right;
-}
-
 .pictureCardFront {
    height: 20rem;
    width: 15rem;
+   margin-left: 100px;
 }
 
 .quoteCardFront {
     font-style: italic;
     text-align: justify;
+    padding: 5px;
 }
 
 .hobbies {
     text-align: justify;
+    padding: 5px;
 }
+
+
 
 
