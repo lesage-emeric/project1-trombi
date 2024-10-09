@@ -30,92 +30,141 @@ img {
 }
 .h6return {
   transform: rotate(180deg);
-}/* * {
+} /* * {
     margin: 0;
     padding: 0;
 } */
 
 #logoWildex {
-    height: 9em;
-    width: 20rem;
-    display: block;
-    margin: auto;
+  height: 9em;
+  width: 20rem;
+  display: block;
+  margin: auto;
 }
 
 nav {
-    background-color: #ffcc01;
-    width: 100%;
-    height: 20rem;
-    margin-bottom: 30px;
+  background-color: #ffcc01;
+  width: 100%;
+  height: 20rem;
+  margin-bottom: 30px;
 }
 
 .filter {
-    padding: 30px;
+  padding: 30px;
 }
 
 #search {
-    padding: 5px;
-    border-radius: 15px;
-    width: 20rem;
+  padding: 5px;
+  border-radius: 15px;
+  width: 20rem;
 }
 
 #navSentence {
-    font-size: 1.2rem;
-    margin-left: 53rem;
+  font-size: 1.2rem;
+  margin-left: 53rem;
 }
 
 .cardFront {
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 20px;
-    height: 38rem;
-    width: 30rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  height: 38rem;
+  width: 30rem;
 }
 
 .articleCardFront {
-    display: flex;
-    flex-flow: column;
+  display: flex;
+  flex-flow: column;
 }
 
 .logo {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .logoGitHub,
 .logoLinkedin {
-    height: 3rem;
-    width: 3rem;
-    margin: 50px 5px 5px 5px;
+  height: 3rem;
+  width: 3rem;
+  margin: 50px 5px 5px 5px;
 }
 
 .titleCardFront {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .titreCardFront,
 .titre2CardFront {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .pictureCardFront {
-   height: 15rem;
-   width: 12rem;
-   margin-left: 130px;
+  height: 15rem;
+  width: 12rem;
+  margin-left: 130px;
 }
 
 .quoteCardFront {
-    font-style: italic;
-    text-align: justify;
-    padding: 5px;
+  font-style: italic;
+  text-align: justify;
+  padding: 5px;
 }
 
 .hobbies {
-    text-align: justify;
-    padding: 5px;
+  text-align: justify;
+  padding: 5px;
 }
 
+:root {
+  --couleur-classeur: rgb(96, 106, 178);
+}
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  background-color: yellow;
+}
 
+.font {
+  width: 100%;
+  height: 100%;
+}
+
+/* Taille et couleur du fond  du classeur */
+.moitieClasseur {
+  background-color: var(--couleur-classeur);
+  border-radius: 18px;
+  height: 75vh;
+  width: 40vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed double none;
+  border: 2px black;
+}
+/* chaque case individuelle du classeur */
+.case {
+  border-width: 0px 2px 2px 2px;
+  border-color: white;
+  border-style: dashed;
+  margin: auto;
+  height: 70%;
+  width: 75%;
+}
+.classeur {
+  display: flex;
+  background-color: blanchedalmond;
+  border: 5px double lightslategray;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
