@@ -1,1 +1,19 @@
+.cardBack {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vh;
+  background-color: gray;
+}
 
+.photoProEmericL {
+  width: 100%;
+  border-radius: 200%;
+}
+
+.cardBack h6 {
+  width: 100%;
+  text-align: center;
+}
+.name {
+  text-align: center;
+}
