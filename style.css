@@ -1,1 +1,40 @@
+.cardFront {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    height: 60rem;
+    width: 30rem;
+}
+
+.logoGitHub,
+.logoLinkedin {
+    height: 3rem;
+    width: 3rem;
+    float: right;
+    margin: 60px 5px 5px 5px;
+}
+
+.titreCardFront,
+.titre2CardFront {
+    font-size: 1.3rem;
+}
+
+.titre2CardFront {
+    text-align-last: right;
+}
+
+.pictureCardFront {
+   height: 20rem;
+   width: 15rem;
+}
+
+.quoteCardFront {
+    font-style: italic;
+    text-align: justify;
+}
+
+.hobbies {
+    text-align: justify;
+}
+
 
