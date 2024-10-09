@@ -1,5 +1,5 @@
 :root {
-  --couleur-classeur: rgb(96, 106, 178);
+  --classeur-clair: #606ab2;
 }
 
 * {
@@ -8,10 +8,10 @@
 
 /* Taille et couleur du fond  du classeur */
 .moitieClasseur {
-  background-color: var(--couleur-classeur);
+  background-color: var(--classeur-clair);
   border-radius: 10px;
   height: 75vh;
-  width: 40vw;
+  width: 30vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -27,7 +27,18 @@
   height: 70%;
   width: 75%;
 }
+/* Pour afficher les deux pages du classeur côte à côte */
 .classeur {
   display: flex;
-  gap: 10px;
+}
+/* retrait de 15 sur chacune des couleurs pour donner (un peu) l'illusion d'un cachier */
+.classeurGauche {
+  background-color: rgb(81, 91, 163);
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 2px 0px 10px 1px black;
+}
+
+.classeurDroite {
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 10px 0px 5px 5px lightgray;
 }
