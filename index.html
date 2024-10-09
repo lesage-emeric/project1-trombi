@@ -7,6 +7,95 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <img
+          src="logoWildex.png"
+          id="logoWildex"
+          alt="logo Wildex, reprenant l'écriture de Pokemon"
+        />
+        <p id="navSentence">De Lille, session 2024</p>
+
+        <section class="filter">
+          <label>DATA <input type="checkbox" checked /></label>
+          <label
+            >DEVELOPPEUR WEB FULL STACK <input type="checkbox" checked
+          /></label>
+          <label>FORMATEURS <input type="checkbox" checked /></label>
+          <input type="text" id="search" placeholder="Rechercher..." />
+        </section>
+      </nav>
+    </header>
+
+    <!-- BASE DU CODE POUR LE FRONT DE LA CARD
+     BASE DU CODE POUR LE FRONT DE LA CARD
+     BASE DU CODE POUR LE FRONT DE LA CARD
+     BASE DU CODE POUR LE FRONT DE LA CARD
+    -->
+
+    <section class="cardFront">
+      <article class="articleCardFront">
+        <div class="titleCardFront">
+          <h2 class="titreCardFront">PRENOM</h2>
+          <h2 class="titre2CardFront">DEV / DATA</h2>
+        </div>
+
+        <!-- BIEN CHANGER L'URL DE LA PHOTO !!! 
+      BIEN CHANGER L'URL DE LA PHOTO !!!
+      BIEN CHANGER L'URL DE LA PHOTO !!!
+      BIEN CHANGER L'URL DE LA PHOTO !!!
+      BIEN CHANGER L'URL DE LA PHOTO !!! -->
+
+        <img
+          class="pictureCardFront"
+          src="aChanger.jpeg"
+          alt="INSERER ICI UNE DESCRIPTION"
+        />
+
+        <blockquote class="quoteCardFront">
+          "Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
+          elementum habitant conubia ac tellus nascetur consequat. Neque mollis
+          sociosqu odio vitae aptent sodales. Tellus pulvinar tincidunt
+          fringilla at placerat arcu pulvinar augue."
+        </blockquote>
+
+        <artcile class="hobbies">
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
+          elementum habitant conubia ac tellus nascetur consequat. Neque mollis
+          sociosqu odio vitae aptent sodales. Tellus pulvinar tincidunt
+          fringilla at placerat arcu pulvinar augue.
+        </artcile>
+        <div class="logo">
+          <img src="logoGitHub.png" class="logoGitHub" alt="logo de github" />
+          <img
+            src="logoLinkedin.avif"
+            class="logoLinkedin"
+            alt="logo Linkedin"
+          />
+        </div>
+      </article>
+    </section>
+
+    <section class="cardBack">
+      <article class="pokewildex">
+        <!-- Très dur de trouver une façon de "tordre" un texte 
+         sans passer par des dizaines de lignes de code HTML && CSS && JS incompréenshibles 
+         (à notre niveau) -->
+        <img src="WILDEX.png" alt="Titre wildex incurvé" />
+      </article>
+      <article class="photoPro">
+        <img
+          class="photoProEmericL"
+          src="photos-pro/pp-emericl.jpeg"
+          alt="Photo professionnelle d'Emeric Lesage"
+        />
+        <p class="name">Emeric L</p>
+        <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+        la photo -->
+      </article>
+      <h6 class="h6return">WILDEX</h6>
+      <!-- style POKEMON écrit à l'envers -->
+    </section>
     <!-- classeur entier -->
     <div class="classeur">
       <!-- Section de la première moitié du classeur, suivie de chaque pochette -->
@@ -25,6 +114,7 @@
         <article class="case"></article>
       </section>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>
