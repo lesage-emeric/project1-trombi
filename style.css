@@ -1,3 +1,6 @@
+:root {
+  --couleur-classeur: rgb(96, 106, 178);
+}
 .cardBack {
   display: flex;
   flex-wrap: wrap;
@@ -116,10 +119,6 @@ nav {
   padding: 5px;
 }
 
-:root {
-  --couleur-classeur: rgb(96, 106, 178);
-}
-
 * {
   box-sizing: border-box;
 }
@@ -141,7 +140,7 @@ body {
   background-color: var(--couleur-classeur);
   border-radius: 18px;
   height: 75vh;
-  width: 30vw;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -169,15 +168,16 @@ body {
   border-bottom-right-radius: 3%;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
+  width: 70vw;
 }
 
 .classeurGauche {
   background-color: rgb(81, 91, 163);
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 3% 0px 0px 3%;
   box-shadow: 2px 0px 10px 1px black;
 }
 
 .classeurDroite {
-  border-radius: 0px 10px 10px 0px;
-  box-shadow: 10px 0px 5px 5px lightgray;
+  border-radius: 0px 3% 3% 0px;
+  box-shadow: 10px 0px 50px 3px rgb(119, 117, 117);
 }
