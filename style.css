@@ -1,1 +1,29 @@
+:root {
+  --couleur-classeur: rgb(96, 106, 178);
+}
 
+* {
+  box-sizing: border-box;
+}
+
+/* Taille et couleur du fond  du classeur */
+.classeur {
+  background-color: var(--couleur-classeur);
+  border-radius: 10px;
+  height: 75vh;
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+/* chaque case individuelle du classeur */
+.case {
+  border-width: 0px 2px 2px 2px;
+  border-color: white;
+  border-style: dashed;
+  margin: auto;
+  max-height: 70%;
+  width: 75%;
+}
