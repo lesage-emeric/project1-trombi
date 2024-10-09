@@ -10,7 +10,7 @@ En groupe on a réalisé un nouveau wireframe post debrief avec toutes les idée
 Puis on travaillé sur Figma pour intégrer les styles et couleurs à notre maquette.
 
 Day 3 :
-Louis travaille sur la maquette et le logo
-Emeric, Alicia travaillent sur les cartes en HTML et CSS
-Timothé travaille sur le fond type classeur en HTMl et CSS
-Mathieu a géré des problèmes locaux de Git
+Louis a travaillé sur la maquette et le logo
+Emeric, Alicia ont travaillé sur les cartes en HTML et CSS
+Timothey a travaillé sur le fond type classeur en HTMl et CSS
+Mathieu a géré des problèmes locaux de Git puis a rejoint Timothey pour travailler sur le classeur
