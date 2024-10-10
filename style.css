@@ -4,8 +4,7 @@
 .cardBack {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
-  height: 30%;
+  height: 100%;
   background-color: rgb(57, 57, 160);
 }
 .pokewildex {
