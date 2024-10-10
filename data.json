@@ -1,0 +1,93 @@
+const person = [
+    {firstname: "Claire",
+    lastname: "Mercier",
+     bootcamp:"Data"
+     professionnal project: ""
+     hobbies:["Biologie","Jeux de société",""]
+     quote: "",
+     github link: "",
+     linkedin: "https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm
+"
+     imgpro: "",
+     imgfun: ""
+    }
+]
+const person = [
+    {firstname: "Nicolas",
+    lastname: "Durant",
+     bootcamp:"Data"
+     professionnal project: ""
+     hobbies:["Cyclisme","",""]
+     quote: "",
+     github link: "",
+     linkedin: "https://fr.linkedin.com/in/nicolas-durant-51b41b140
+"
+     imgpro: "",
+     imgfun: ""
+    }
+]
+const person = [
+    {firstname: "",
+    lastname: "",
+     bootcamp:""
+     professionnal project: ""
+     hobbies:["","",""]
+     quote: "",
+     github link: "",
+     linkedin: ""
+     imgpro: "",
+     imgfun: ""
+    }
+]
+const person = [
+    {firstname: "",
+    lastname: "",
+     bootcamp:""
+     professionnal project: ""
+     hobbies:["","",""]
+     quote: "",
+     github link: "",
+     linkedin: ""
+     imgpro: "",
+     imgfun: ""
+    }
+]
+const person = [
+    {firstname: "",
+    lastname: "",
+     bootcamp:""
+     professionnal project: ""
+     hobbies:["","",""]
+     quote: "",
+     github link: "",
+     linkedin: ""
+     imgpro: "",
+     imgfun: ""
+    }
+]
+const person = [
+    {firstname: "",
+    lastname: "",
+     bootcamp:""
+     professionnal project: ""
+     hobbies:["","",""]
+     quote: "",
+     github link: "",
+     linkedin: ""
+     imgpro: "",
+     imgfun: ""
+    }
+]
+const person = [
+    {firstname: "",
+    lastname: "",
+     bootcamp:""
+     professionnal project: ""
+     hobbies:["","",""]
+     quote: "",
+     github link: "",
+     linkedin: ""
+     imgpro: "",
+     imgfun: ""
+    }
+]
