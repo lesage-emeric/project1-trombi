@@ -26,8 +26,8 @@
   justify-content: center;
 }
 
-img {
-  width: 75%;
+.photoProEmericL {
+  max-width: 50%;
   border-radius: 200%;
   margin: auto;
 }
@@ -102,13 +102,17 @@ nav {
   justify-content: end;
 }
 
-.logoGitHub,
-.logoLinkedin {
+.logoGitHub {
   height: 3rem;
   width: 3rem;
-  margin: 50px 5px 5px 5px;
+  margin: 10px 5px 5px 5px;
 }
 
+.logoLinkedin {
+  height: 4rem;
+  width: 4rem;
+  margin: 3px 5px 5px 5px;
+}
 .titleCardFront {
   display: flex;
   justify-content: space-between;
