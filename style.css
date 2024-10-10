@@ -11,6 +11,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   background-color: var(--backgroundColor);
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 /* STYLE DE LA NAV 
@@ -59,7 +60,7 @@ STYLE DE LA NAV
   width: auto;
   display: flex;
   align-items: baseline;
-  /* margin: auto; */
+  margin: auto;
 }
 
 nav {
@@ -85,7 +86,9 @@ nav {
 
 #navSentence {
   font-size: 1.2rem;
-  margin-left: 53rem;
+  position: relative;
+  top: -5rem;
+  right: -30rem;
 }
 
 #logoWildex {
@@ -156,6 +159,7 @@ STYLE CARD FRONT
   padding: 20px;
   height: 38rem;
   width: 30rem;
+  font-size: 0.9rem;
 }
 
 .articleCardFront {
