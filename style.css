@@ -1,6 +1,8 @@
 :root {
   --backgroundColor: #ffcc01;
   --bluePokemon: #385ca5;
+  --devColor: #a206b7;
+  --dataColor: #2667ef;
 }
 
 * {
