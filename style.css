@@ -1,6 +1,8 @@
 :root {
   --backgroundColor: #ffcc01;
   --bluePokemon: #385ca5;
+  --devColor: #a206b7;
+  --dataColor: #2667ef;
 }
 
 * {
@@ -12,7 +14,6 @@ body {
   margin-right: 10%;
   background-color: var(--backgroundColor);
 }
-
 
 /* STYLE DE LA NAV 
 STYLE DE LA NAV 
@@ -32,7 +33,7 @@ STYLE DE LA NAV
 }
 
 .photoProEmericL {
-  max-width: 50%;
+  width: 75%;
   border-radius: 200%;
   margin: auto;
 }
@@ -62,7 +63,6 @@ STYLE DE LA NAV
   align-items: baseline;
   /* margin: auto; */
 }
-
 
 nav {
   background-color: var(--backgroundColor);
@@ -103,7 +103,6 @@ STYLE CARD BACK
 STYLE CARD BACK
 STYLE CARD BACK 
 */
-
 
 .cardBack {
   display: flex; 
@@ -217,7 +216,6 @@ body {
   margin: 0;
 }
 
-
 /* STYLE CLASSEUR
 STYLE CLASSEUR
 STYLE CLASSEUR 
@@ -228,7 +226,6 @@ STYLE CLASSEUR
 .moitieClasseur {
   background-color: var(--bluePokemon);
   border-radius: 18px;
-  height: 75vh;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -257,7 +254,9 @@ STYLE CLASSEUR
   border-bottom-right-radius: 3%;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
-  width: 70vw;
+  width: 80vw;
+  height: 120vh;
+  margin: auto;
 }
 
 .classeurGauche {
@@ -282,7 +281,7 @@ footer {
   position: absolute;
 }
 
-  .pokeball {
+.pokeball {
   height: 25px;
   width: 25px;
 }
