@@ -27,7 +27,7 @@
 }
 
 .photoProEmericL {
-  max-width: 50%;
+  width: 75%;
   border-radius: 200%;
   margin: auto;
 }
@@ -155,7 +155,6 @@ body {
 .moitieClasseur {
   background-color: var(--bluePokemon);
   border-radius: 18px;
-  height: 75vh;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -185,6 +184,7 @@ body {
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
   width: 70vw;
+  height: 100vh;
 }
 
 .classeurGauche {
