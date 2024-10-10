@@ -16,3 +16,10 @@ Louis a travaillé sur la maquette et le logo
 Emeric, Alicia ont travaillé sur les cartes en HTML et CSS
 Timothey a travaillé sur le fond type classeur en HTMl et CSS
 Mathieu a géré des problèmes locaux de Git puis a rejoint Timothey pour travailler sur le classeur
+Ensuite on a fait nos premiers push puis PR avec résolution de conflits
+
+Day 4 :
+Louis a travaillé sur le texte incurvé
+Alicia a travaillé sur la navbar
+Mathieu a travaillé sur la récolte de données côté DATA
+Emeric et Timothey ont travaillé sur le cod epour le rendre plus propre
