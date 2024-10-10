@@ -1,62 +1,23 @@
 :root {
   --backgroundColor: #ffcc01;
   --bluePokemon: #385ca5;
-  /* --couleur-classeur: rgb(96, 106, 178); */
 }
 
 * {
   box-sizing: border-box;
 }
 
-.cardBack {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  background-color: var(--bluePokemon);
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: var(--backgroundColor);
 }
 
-.pokewildex {
-  display: flex;
-  justify-content: center;
-}
-
-.photoPro {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-img {
-  width: 75%;
-  border-radius: 200%;
-  margin: auto;
-}
-
-.name {
-  margin: 10px;
-}
-
-.cardBack h6 {
-  width: 100%;
-  text-align: center;
-  color: rgb(230, 216, 21);
-  margin: auto;
-}
-
-.h6return {
-  transform: rotate(180deg);
-} /* * {
-    margin: 0;
-    padding: 0;
-} */
-
-#logoWildex {
-  height: 10em;
-  width: auto;
-  display: flex;
-  align-items: baseline;
-  /* margin: auto; */
-}
+/* STYLE DE LA NAV 
+STYLE DE LA NAV 
+STYLE DE LA NAV 
+STYLE DE LA NAV 
+*/
 
 nav {
   background-color: var(--backgroundColor);
@@ -83,6 +44,69 @@ nav {
   font-size: 1.2rem;
   margin-left: 53rem;
 }
+
+#logoWildex {
+  height: 10em;
+  width: auto;
+  display: flex;
+  align-items: baseline;
+  margin: auto;
+}
+
+/* STYLE CARD BACK 
+STYLE CARD BACK 
+STYLE CARD BACK
+STYLE CARD BACK 
+*/
+
+
+.cardBack {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: var(--bluePokemon);
+}
+
+.pokewildex {
+  display: flex;
+  justify-content: center;
+}
+
+.photoPro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photoProEmericL {
+  width: 75%;
+  border-radius: 200%;
+  margin: auto;
+}
+
+.name {
+  margin: 10px;
+}
+
+.cardBack h6 {
+  width: 100%;
+  text-align: center;
+  color: rgb(230, 216, 21);
+  margin: auto;
+}
+
+.h6return {
+  transform: rotate(180deg);
+} /* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* STYLE CARD FRONT
+STYLE CARD FRONT
+STYLE CARD FRONT 
+STYLE CARD FRONT 
+*/
 
 .cardFront {
   border: 2px solid black;
@@ -136,16 +160,16 @@ nav {
   padding: 5px;
 }
 
-body {
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: var(--backgroundColor);
-}
-
-.font {
+/* .font {
   width: 100%;
   height: 100%;
-}
+} */
+
+/* STYLE CLASSEUR
+STYLE CLASSEUR
+STYLE CLASSEUR 
+STYLE CLASSEUR 
+*/
 
 /* Taille et couleur du fond  du classeur */
 .moitieClasseur {
@@ -190,6 +214,7 @@ body {
 }
 
 .classeurDroite {
+  background-color: var(--bluePokemon);
   border-radius: 0px 3% 3% 0px;
   box-shadow: 10px 0px 50px 3px rgb(119, 117, 117);
 }
