@@ -11,9 +11,8 @@
 .cardBack {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
-  height: 30%;
-  background-color: var(--bluePokemon)
+  height: 100%;
+  background-color: var(--bluePokemon);
 }
 
 .pokewildex {
@@ -67,9 +66,9 @@ nav {
 }
 
 .filter {
-margin: 30px;
-display: flex;
-justify-content: space-between;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #search {
@@ -153,7 +152,7 @@ body {
   background-color: var(--bluePokemon);
   border-radius: 18px;
   height: 75vh;
-  width: 30vw;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -181,15 +180,16 @@ body {
   border-bottom-right-radius: 3%;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
+  width: 70vw;
 }
 
 .classeurGauche {
   background-color: var(--bluePokemon);
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 3% 0px 0px 3%;
   box-shadow: 2px 0px 10px 1px black;
 }
 
 .classeurDroite {
-  border-radius: 0px 10px 10px 0px;
-  box-shadow: 10px 0px 5px 5px lightgray;
+  border-radius: 0px 3% 3% 0px;
+  box-shadow: 10px 0px 50px 3px rgb(119, 117, 117);
 }
