@@ -15,7 +15,7 @@
   background-color: var(--bluePokemon);
 }
 
-.pokewildex {
+.wildexCarte {
   display: flex;
   justify-content: center;
 }
@@ -39,7 +39,7 @@ img {
 .cardBack h6 {
   width: 100%;
   text-align: center;
-  color: rgb(230, 216, 21);
+  color: var(--backgroundColor);
   margin: auto;
 }
 
