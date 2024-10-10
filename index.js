@@ -1,3 +1,5 @@
-const fullCard = document.getElementsByClassName(cardFront)
+const littleCard = document.getElementsByClassName(".cardBack")
 
-fullCard
+littleCard.addEventListener("click", => {
+
+})
