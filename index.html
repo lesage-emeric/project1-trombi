@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Year book wilders september 2024</title>
+    <title>Year book | Wilders september 2024</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <link rel="icon" type="image/x-icon" href="POKEBALL.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
@@ -32,6 +33,60 @@
         </section>
       </nav>
     </header>
+
+    <!-- DOS DES CARTES -->
+
+    <!-- classeur entier -->
+    <div class="classeur">
+      <!-- Section de la première moitié du classeur, suivie de chaque pochette -->
+      <section class="moitieClasseur classeurGauche">
+        <!-- chacune des cases du classeur  -->
+        <article class="case case1">
+          <section class="cardBack">
+            <h6>WILDEX</h6>
+            <article class="photoPro">
+              <img
+                class="photoProEmericL"
+                src="photos-pro/imgProEmericL.jpeg"
+                alt="Photo professionnelle d'Emeric Lesage"
+              />
+              <p class="name">Emeric L</p>
+              <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+            la photo -->
+            </article>
+            <h6 class="h6return">WILDEX</h6>
+
+            <!-- style POKEMON écrit à l'envers -->
+          </section>
+        </article>
+        <article class="case case2"></article>
+        <article class="case case3"></article>
+        <article class="case case4"></article>
+      </section>
+      <!-- Section de la seconde moitié du classeur, suivie de chaque pochette -->
+      <section class="moitieClasseur classeurDroite">
+        <article class="case case5">
+          <section class="cardBack">
+            <h6>WILDEX</h6>
+            <article class="photoPro">
+              <img
+                class="photoProEmericL"
+                src="photos-pro/pp-emericl.jpeg"
+                alt="Photo professionnelle d'Emeric Lesage"
+              />
+              <p class="name">Emeric L</p>
+              <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+          la photo -->
+            </article>
+            <h6 class="h6return">WILDEX</h6>
+            <!-- style POKEMON écrit à l'envers -->
+          </section>
+        </article>
+        <article class="case case6"></article>
+        <article class="case case7"></article>
+        <article class="case case8"></article>
+      </section>
+    </div>
 
     <!-- BASE DU CODE POUR LE FRONT DE LA CARD
      BASE DU CODE POUR LE FRONT DE LA CARD
@@ -84,63 +139,15 @@
         </div>
       </article>
     </section>
-    <!-- DOS DES CARTES -->
-
-    <!-- classeur entier -->
-    <div class="classeur">
-      <!-- Section de la première moitié du classeur, suivie de chaque pochette -->
-      <section class="moitieClasseur classeurGauche">
-        <!-- chacune des cases du classeur  -->
-        <article class="case">
-          <section class="cardBack">
-            <h6>WILDEX</h6>
-            <article class="photoPro">
-              <img
-                class="photoProEmericL"
-                src="photos-pro/pp-emericl.jpeg"
-                alt="Photo professionnelle d'Emeric Lesage"
-              />
-              <p class="name">Emeric L</p>
-              <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
-            la photo -->
-            </article>
-            <h6 class="h6return">WILDEX</h6>
-
-            <!-- style POKEMON écrit à l'envers -->
-          </section>
-        </article>
-        <article class="case"></article>
-        <article class="case"></article>
-        <article class="case"></article>
-      </section>
-      <!-- Section de la seconde moitié du classeur, suivie de chaque pochette -->
-      <section class="moitieClasseur classeurDroite">
-        <article class="case">
-          <section class="cardBack">
-            <h6>WILDEX</h6>
-            <article class="photoPro">
-              <img
-                class="photoProEmericL"
-                src="photos-pro/pp-emericl.jpeg"
-                alt="Photo professionnelle d'Emeric Lesage"
-              />
-              <p class="name">Emeric L</p>
-              <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
-          la photo -->
-            </article>
-            <h6 class="h6return">WILDEX</h6>
-            <!-- style POKEMON écrit à l'envers -->
-          </section>
-        </article>
-        <article class="case"></article>
-        <article class="case"></article>
-        <article class="case"></article>
-      </section>
-    </div>
 
     <script src="index.js"></script>
 
     <footer>
+      <img class="pokeball" src="pokeball.gif" alt="" />Copyright © 2024<img
+        class="pokeball"
+        src="pokeball.gif"
+        alt=""
+      />
       <img class="pokeball" src="pokeball.gif" alt="" />Je suis le footer
     </footer>
   </body>

@@ -1,93 +1,168 @@
-const person = [
-    {firstname: "Claire",
-    lastname: "Mercier",
-     bootcamp:"Data"
-     professionnal project: ""
-     hobbies:["Biologie","Jeux de société",""]
-     quote: "",
-     github link: "",
-     linkedin: "https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm
-"
-     imgpro: "",
-     imgfun: ""
+{
+    "firstname": "Emeric",
+    "lastname": "Lesage",
+    "bootcamp":"Dev",
+    "professionnal-project": "Poursuite en alternance",
+    "hobbies":["Jeux vidéo","Cinéma","Sport"],
+    "quote": "",
+    "githublink": "https://github.com/lesage-emeric",
+    "linkedin": "www.linkedin.com/in/emeric-lesage-610934285",
+    "imgpro": "pp-emericl.jpeg",
+    "imgfun": ""
     }
-]
-const person = [
-    {firstname: "Nicolas",
-    lastname: "Durant",
-     bootcamp:"Data"
-     professionnal project: ""
-     hobbies:["Cyclisme","",""]
-     quote: "",
-     github link: "",
-     linkedin: "https://fr.linkedin.com/in/nicolas-durant-51b41b140
-"
-     imgpro: "",
-     imgfun: ""
+{
+    "firstname": "Louis",
+    "lastname": "Verschooris",
+    "bootcamp":"Dev",
+    "professionnal-project": "Poursuite en alternance",
+    "hobbies":["E-commmerce","Business","Sport"],
+    "quote": "",
+    "githublink": "https://github.com/LouisNoizar",
+    "linkedin": "",
+    "imgpro": "",
+    "imgfun": ""
+}
+
+{
+    "firstname": "Claire",
+    "lastname": "Mercier",
+    "bootcamp":"Data",
+    "professionnal-project": "",
+    "hobbies":["Biologie","Jeux de société",""],
+    "quote": "",
+    "githublink": "",
+    "linkedin": "https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm
+",
+    "imgpro": "",
+    "imgfun": ""
     }
-]
-const person = [
-    {firstname: "",
-    lastname: "",
-     bootcamp:""
-     professionnal project: ""
-     hobbies:["","",""]
-     quote: "",
-     github link: "",
-     linkedin: ""
-     imgpro: "",
-     imgfun: ""
+{
+    "firstname": "Nicolas",
+    "lastname": "Durant",
+    "bootcamp":"Data",
+    "professionnal-project": "",
+    "hobbies":["Cyclisme","",""],
+    "quote": "",
+    "githublink": "",
+    "linkedin": "https://fr.linkedin.com/in/nicolas-durant-51b41b140
+",
+    "imgpro": "",
+    "imgfun": ""
     }
-]
-const person = [
-    {firstname: "",
-    lastname: "",
-     bootcamp:""
-     professionnal project: ""
-     hobbies:["","",""]
-     quote: "",
-     github link: "",
-     linkedin: ""
-     imgpro: "",
-     imgfun: ""
+
+{
+    "firstname": "Benjamin",
+    "lastname": "Regnier",
+    "bootcamp":"Data",
+    "professionnal-project": "",
+    "hobbies":["La data","Course à pied",""],
+    "quote": "Qui veut aller loin ménage sa monture",
+    "githublink": "",
+    "linkedin": "https://www.linkedin.com/in/benjamin-regnier-56708b91/",
+    "imgpro": "",
+    "imgfun": ""
     }
-]
-const person = [
-    {firstname: "",
-    lastname: "",
-     bootcamp:""
-     professionnal project: ""
-     hobbies:["","",""]
-     quote: "",
-     github link: "",
-     linkedin: ""
-     imgpro: "",
-     imgfun: ""
+
+    {
+    "firstname": "Alicia",
+    "lastname": "Magro",
+    "bootcamp":"Développeur full stack",
+    "professionnal-project": "",
+    "hobbies":["Cinéma","Écriture","Musique"],
+    "quote": "",
+    "githublink": "https://github.com/itisalicia",
+    "linkedin": "https://www.linkedin.com/in/alicia-magro-3b658a292/",
+    "imgpro": "imgProAliciaM.jpeg",
+    "imgfun": "imgFunAliciaM.jpeg"
     }
-]
-const person = [
-    {firstname: "",
-    lastname: "",
-     bootcamp:""
-     professionnal project: ""
-     hobbies:["","",""]
-     quote: "",
-     github link: "",
-     linkedin: ""
-     imgpro: "",
-     imgfun: ""
+
+{
+    "firstname": "Halim",
+    "lastname": "Moulay",
+    "bootcamp":"Data",
+    "professionnal-project": "",
+    "hobbies":["Escalade","Films","Voyages"],
+    "quote": "On est mieux ici qu'en prison",
+    "githublink": "",
+    "linkedin": "",
+    "imgpro": "",
+    "imgfun": ""
     }
-]
-const person = [
-    {firstname: "",
-    lastname: "",
-     bootcamp:""
-     professionnal project: ""
-     hobbies:["","",""]
-     quote: "",
-     github link: "",
-     linkedin: ""
-     imgpro: "",
-     imgfun: ""
+
+
+
+{
+    "firstname": "Ludovic",
+    "lastname": "Simunek",
+    "bootcamp":"Data",
+    "professionnal-project": "",
+    "hobbies":["Moto","Informatique","Théâtre"],
+    "quote": "Il faut se méfier de l'eau qui dort",
+    "githublink": "",
+    "linkedin": "https://www.linkedin.com/in/ludovic-simunek/",
+    "imgpro": "",
+    "imgfun": ""
     }
-]
+
+{
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
+    "quote": "",
+    "githublink": "",
+    "linkedin": "",
+    "imgpro": "",
+    "imgfun": ""
+    }
+
+{
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
+    "quote": "",
+    "githublink": "",
+    "linkedin": "",
+    "imgpro": "",
+    "imgfun": ""
+    }
+
+{
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
+    "quote": "",
+    "githublink": "",
+    "linkedin": "",
+    "imgpro": "",
+    "imgfun": ""
+    }
+{
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
+    "quote": "",
+    "githublink": "",
+    "linkedin": "",
+    "imgpro": "",
+    "imgfun": ""
+    }
+{
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
+    "quote": "",
+    "githublink": "",
+    "linkedin": "",
+    "imgpro": "",
+    "imgfun": ""
+    }
