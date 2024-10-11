@@ -4,7 +4,6 @@
   --devColor: #a206b7;
   --dataColor: #2667ef;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -13,6 +12,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   background-color: var(--backgroundColor);
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 /* STYLE DE LA NAV 
@@ -59,9 +59,6 @@ STYLE DE LA NAV
 #logoWildex {
   height: 10em;
   width: auto;
-  display: flex;
-  align-items: baseline;
-  /* margin: auto; */
 }
 
 nav {
@@ -86,16 +83,9 @@ nav {
 }
 
 #navSentence {
-  font-size: 1.2rem;
-  margin-left: 53rem;
-}
-
-#logoWildex {
-  height: 10em;
-  width: auto;
-  display: flex;
-  align-items: baseline;
-  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #365fac;
 }
 
 /* STYLE CARD BACK 
@@ -191,7 +181,11 @@ STYLE CARD FRONT
 .titre2CardFront {
   font-size: 1.3rem;
 }
-
+.titre {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 .pictureCardFront {
   height: 15rem;
   width: 12rem;
@@ -268,7 +262,7 @@ STYLE CLASSEUR
 .classeurDroite {
   background-color: var(--bluePokemon);
   border-radius: 0px 3% 3% 0px;
-  box-shadow: 10px 0px 50px 3px rgb(119, 117, 117);
+  box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
 }
 
 footer {
