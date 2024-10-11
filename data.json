@@ -51,12 +51,21 @@
     }
 
 {
+
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":""
+    "professionnal-project": ""
+    "hobbies":["","",""]
+    "quote": "",
+
     "firstname": "Benjamin",
     "lastname": "Regnier",
     "bootcamp":"Data",
     "professionnal-project": "",
     "hobbies":["La data","Course à pied",""],
     "quote": "Qui veut aller loin ménage sa monture",
+
     "githublink": "",
     "linkedin": "https://www.linkedin.com/in/benjamin-regnier-56708b91/",
     "imgpro": "",
