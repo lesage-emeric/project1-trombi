@@ -282,3 +282,15 @@ footer {
   height: 25px;
   width: 25px;
 }
+
+.filter_wrap {
+  gap: 3rem;
+  display: flex;
+}
+
+label {
+  gap: 0.95rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}

@@ -1,139 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Year book wilders september 2024</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="POKEBALL.png" />
-  </head>
-  <body>
-    <header>
-      <img
-        src="logoWildex.png"
-        id="logoWildex"
-        alt="logo Wildex, reprenant l'écriture de Pokemon"
-      />
-      <nav>
-        <p id="navSentence">De Lille, session 2024</p>
 
-        <section class="filter">
-          <label>DATA ANALYST <input type="checkbox" checked /></label>
-          <label
-            >DEVELOPPEUR WEB FULL STACK <input type="checkbox" checked
-          /></label>
-          <label>FORMATEURS <input type="checkbox" checked /></label>
-          <input type="text" id="search" placeholder="Rechercher..." />
-        </section>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Year book wilders september 2024</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="POKEBALL.png" />
+</head>
 
-    <!-- BASE DU CODE POUR LE FRONT DE LA CARD
+<body>
+  <header>
+    <img src="logoWildex.png" id="logoWildex" alt="logo Wildex, reprenant l'écriture de Pokemon" />
+    <nav>
+      <p id="navSentence">De Lille, session 2024</p>
+
+      <section class="filter">
+        <div class="filter_wrap">
+          <label><input type="checkbox" checked />Data Analyst </label>
+          <label><input type="checkbox" checked />Développeur Web Full-Stack </label>
+          <label><input type="checkbox" checked /> Formateurs </label>
+        </div>
+        <input type="text" id="search" placeholder="Rechercher..." />
+
+      </section>
+    </nav>
+  </header>
+
+  <!-- BASE DU CODE POUR LE FRONT DE LA CARD
      BASE DU CODE POUR LE FRONT DE LA CARD
      BASE DU CODE POUR LE FRONT DE LA CARD
      BASE DU CODE POUR LE FRONT DE LA CARD
     -->
 
-    <section class="cardFront">
-      <article class="articleCardFront">
-        <div class="titleCardFront">
-          <h2 class="titreCardFront">PRENOM</h2>
-          <h2 class="titre2CardFront">DEV / DATA</h2>
-        </div>
+  <section class="cardFront">
+    <article class="articleCardFront">
+      <div class="titleCardFront">
+        <h2 class="titreCardFront">PRENOM</h2>
+        <h2 class="titre2CardFront">DEV / DATA</h2>
+      </div>
 
-        <!-- BIEN CHANGER L'URL DE LA PHOTO !!! 
+      <!-- BIEN CHANGER L'URL DE LA PHOTO !!! 
       BIEN CHANGER L'URL DE LA PHOTO !!!
       BIEN CHANGER L'URL DE LA PHOTO !!!
       BIEN CHANGER L'URL DE LA PHOTO !!!
       BIEN CHANGER L'URL DE LA PHOTO !!! -->
 
-        <img
-          class="pictureCardFront"
-          src="aChanger.jpeg"
-          alt="INSERER ICI UNE DESCRIPTION"
-        />
+      <img class="pictureCardFront" src="aChanger.jpeg" alt="INSERER ICI UNE DESCRIPTION" />
 
-        <blockquote class="quoteCardFront">
-          "Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
-          elementum habitant conubia ac tellus nascetur consequat. Neque mollis
-          sociosqu odio vitae aptent sodales. Tellus pulvinar tincidunt
-          fringilla at placerat arcu pulvinar augue."
-        </blockquote>
+      <blockquote class="quoteCardFront">
+        "Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
+        elementum habitant conubia ac tellus nascetur consequat. Neque mollis
+        sociosqu odio vitae aptent sodales. Tellus pulvinar tincidunt
+        fringilla at placerat arcu pulvinar augue."
+      </blockquote>
 
-        <artcile class="hobbies">
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
-          elementum habitant conubia ac tellus nascetur consequat. Neque mollis
-          sociosqu odio vitae aptent sodales. Tellus pulvinar tincidunt
-          fringilla at placerat arcu pulvinar augue.
-        </artcile>
-        <div class="logo">
-          <img src="logoGitHub2.png" class="logoGitHub" alt="logo de github" />
-          <img
-            src="logo-linkedIn.png"
-            class="logoLinkedin"
-            alt="logo Linkedin"
-          />
-        </div>
-      </article>
-    </section>
-    <!-- DOS DES CARTES -->
+      <artcile class="hobbies">
+        Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
+        elementum habitant conubia ac tellus nascetur consequat. Neque mollis
+        sociosqu odio vitae aptent sodales. Tellus pulvinar tincidunt
+        fringilla at placerat arcu pulvinar augue.
+      </artcile>
+      <div class="logo">
+        <img src="logoGitHub2.png" class="logoGitHub" alt="logo de github" />
+        <img src="logo-linkedIn.png" class="logoLinkedin" alt="logo Linkedin" />
+      </div>
+    </article>
+  </section>
+  <!-- DOS DES CARTES -->
 
-    <!-- classeur entier -->
-    <div class="classeur">
-      <!-- Section de la première moitié du classeur, suivie de chaque pochette -->
-      <section class="moitieClasseur classeurGauche">
-        <!-- chacune des cases du classeur  -->
-        <article class="case">
-          <section class="cardBack">
-            <h6>WILDEX</h6>
-            <article class="photoPro">
-              <img
-                class="photoProEmericL"
-                src="photos-pro/pp-emericl.jpeg"
-                alt="Photo professionnelle d'Emeric Lesage"
-              />
-              <p class="name">Emeric L</p>
-              <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+  <!-- classeur entier -->
+  <div class="classeur">
+    <!-- Section de la première moitié du classeur, suivie de chaque pochette -->
+    <section class="moitieClasseur classeurGauche">
+      <!-- chacune des cases du classeur  -->
+      <article class="case">
+        <section class="cardBack">
+          <h6>WILDEX</h6>
+          <article class="photoPro">
+            <img class="photoProEmericL" src="photos-pro/pp-emericl.jpeg" alt="Photo professionnelle d'Emeric Lesage" />
+            <p class="name">Emeric L</p>
+            <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
             la photo -->
 
-            </article>
-            <h6 class="h6return">WILDEX</h6>
+          </article>
+          <h6 class="h6return">WILDEX</h6>
 
-            <!-- style POKEMON écrit à l'envers -->
-          </section>
-        </article>
-        <article class="case"></article>
-        <article class="case"></article>
-        <article class="case"></article>
-      </section>
-      <!-- Section de la seconde moitié du classeur, suivie de chaque pochette -->
-      <section class="moitieClasseur classeurDroite">
-        <article class="case">
-          <section class="cardBack">
-            <h6>WILDEX</h6>
-            <article class="photoPro">
-              <img
-                class="photoProEmericL"
-                src="photos-pro/pp-emericl.jpeg"
-                alt="Photo professionnelle d'Emeric Lesage"
-              />
-              <p class="name">Emeric L</p>
-              <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+          <!-- style POKEMON écrit à l'envers -->
+        </section>
+      </article>
+      <article class="case"></article>
+      <article class="case"></article>
+      <article class="case"></article>
+    </section>
+    <!-- Section de la seconde moitié du classeur, suivie de chaque pochette -->
+    <section class="moitieClasseur classeurDroite">
+      <article class="case">
+        <section class="cardBack">
+          <h6>WILDEX</h6>
+          <article class="photoPro">
+            <img class="photoProEmericL" src="photos-pro/pp-emericl.jpeg" alt="Photo professionnelle d'Emeric Lesage" />
+            <p class="name">Emeric L</p>
+            <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
           la photo -->
-            </article>
-            <h6 class="h6return">WILDEX</h6>
-            <!-- style POKEMON écrit à l'envers -->
-          </section>
-        </article>
-        <article class="case"></article>
-        <article class="case"></article>
-        <article class="case"></article>
-      </section>
-    </div>
+          </article>
+          <h6 class="h6return">WILDEX</h6>
+          <!-- style POKEMON écrit à l'envers -->
+        </section>
+      </article>
+      <article class="case"></article>
+      <article class="case"></article>
+      <article class="case"></article>
+    </section>
+  </div>
 
-    <script src="index.js"></script>
+  <script src="index.js"></script>
 
-  <footer>  <img class="pokeball" src="pokeball.gif" alt="">Je suis le footer </footer>
-  </body>
+  <footer> <img class="pokeball" src="pokeball.gif" alt="">Je suis le footer </footer>
+</body>
 
 </html>
