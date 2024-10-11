@@ -101,6 +101,10 @@ STYLE CARD BACK
   background-color: var(--bluePokemon);
   border-radius: 30px;
 }
+.cardBack:hover {
+  transform: translate(0px, -50px);
+  transition: all 0.3s ease-out;
+}
 
 .pokewildex {
   display: flex;
