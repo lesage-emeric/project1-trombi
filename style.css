@@ -99,7 +99,7 @@ STYLE CARD BACK
   flex-wrap: wrap;
   height: 100%;
   background-color: var(--bluePokemon);
-  border-radius: 25px;
+  border-radius: 30px;
 }
 
 .pokewildex {
