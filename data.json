@@ -12,6 +12,19 @@
 }
 
 {
+    "firstname": "Louis",
+    "lastname": "Verschooris",
+    "bootcamp":"Dev"
+    "professionnal-project": "Poursuite en alternance"
+    "hobbies":["E-commmerce","Business","Sport"]
+    "quote": "",
+    "githublink": "https://github.com/LouisNoizar",
+    "linkedin": ""
+    "imgpro": "",
+    "imgfun": ""
+}
+
+{
     "firstname": "Claire",
     "lastname": "Mercier",
     "bootcamp":"Data"
@@ -52,7 +65,99 @@ mathieu-priez-39834928
     "imgpro": "",
     "imgfun": ""
     }
+
     {
+    "firstname": "Alicia",
+    "lastname": "Magro",
+    "bootcamp":"Développeur full stack"
+    "professionnal-project": ""
+    "hobbies":["Cinéma","Écriture","Musique"]
+    "quote": "",
+    "githublink": "https://github.com/itisalicia",
+    "linkedin": "https://www.linkedin.com/in/alicia-magro-3b658a292/"
+    "imgpro": "imgProAlicia.jpeg",
+    "imgfun": "imgFunAlicia.jpeg"
+    }
+
+
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":""
+    "professionnal-project": ""
+    "hobbies":["","",""]
+    "quote": "",
+    "githublink": "",
+    "linkedin": ""
+    "imgpro": "",
+    "imgfun": ""
+    }
+
+
+
+
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":""
+    "professionnal-project": ""
+    "hobbies":["","",""]
+    "quote": "",
+    "githublink": "",
+    "linkedin": ""
+    "imgpro": "",
+    "imgfun": ""
+    }
+
+
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":""
+    "professionnal-project": ""
+    "hobbies":["","",""]
+    "quote": "",
+    "githublink": "",
+    "linkedin": ""
+    "imgpro": "",
+    "imgfun": ""
+    }
+
+
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":""
+    "professionnal-project": ""
+    "hobbies":["","",""]
+    "quote": "",
+    "githublink": "",
+    "linkedin": ""
+    "imgpro": "",
+    "imgfun": ""
+    }
+
+
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":""
+    "professionnal-project": ""
+    "hobbies":["","",""]
+    "quote": "",
+    "githublink": "",
+    "linkedin": ""
+    "imgpro": "",
+    "imgfun": ""
+    }
+
+    "firstname": "",
+    "lastname": "",
+    "bootcamp":""
+    "professionnal-project": ""
+    "hobbies":["","",""]
+    "quote": "",
+    "githublink": "",
+    "linkedin": ""
+    "imgpro": "",
+    "imgfun": ""
+    }
+
     "firstname": "",
     "lastname": "",
     "bootcamp":""
