@@ -105,7 +105,7 @@ STYLE CARD BACK
 */
 
 .cardBack {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   height: 100%;
   background-color: var(--bluePokemon);
@@ -279,9 +279,13 @@ footer {
   /* padding-bottom: 10%; */
   width: 100%;
   position: absolute;
+  border: 4px double lightslategray;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 
 .pokeball {
   height: 25px;
   width: 25px;
+  margin-top: 8px;
 }

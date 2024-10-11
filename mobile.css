@@ -1,0 +1,5 @@
+@media srceen and (max-width: 900px) {
+  body {
+    background-color: aqua;
+  }
+}
