@@ -1,5 +1,9 @@
-@media srceen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   body {
     background-color: aqua;
   }
+}
+
+header {
+  width: 100%;
 }
