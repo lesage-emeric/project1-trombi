@@ -128,14 +128,14 @@
     }
 
 {
-    "firstname": "",
-    "lastname": "",
-    "bootcamp":"",
+    "firstname": "Timothey",
+    "lastname": "Mesmacque",
+    "bootcamp":"Dev",
     "professionnal-project": "",
-    "hobbies":["","",""],
+    "hobbies":["Jeux vidéos","Musique"],
     "quote": "",
-    "githublink": "",
-    "linkedin": "",
+    "githublink": "https://github.com/MTimot",
+    "linkedin": "https://www.linkedin.com/in/timothey-mesmacque-924b56331/",
     "imgpro": "",
     "imgfun": ""
     }

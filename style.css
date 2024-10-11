@@ -99,6 +99,7 @@ STYLE CARD BACK
   flex-wrap: wrap;
   height: 100%;
   background-color: var(--bluePokemon);
+  border-radius: 30px;
 }
 
 .pokewildex {
@@ -220,7 +221,7 @@ STYLE CLASSEUR
 
 /* Taille et couleur du fond  du classeur */
 .moitieClasseur {
-  background-color: var(--bluePokemon);
+  background-color: rgb(56, 56, 56);
   border-radius: 18px;
   width: 100%;
   display: grid;
@@ -256,13 +257,12 @@ STYLE CLASSEUR
 }
 
 .classeurGauche {
-  background-color: var(--bluePokemon);
   border-radius: 3% 0px 0px 3%;
   box-shadow: 2px 0px 10px 1px black;
 }
 
 .classeurDroite {
-  background-color: var(--bluePokemon);
+  background-color: rgb(71, 71, 71);
   border-radius: 0px 3% 3% 0px;
   box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
 }
