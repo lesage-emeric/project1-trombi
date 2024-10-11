@@ -1,39 +1,38 @@
 {
     "firstname": "Emeric",
     "lastname": "Lesage",
-    "bootcamp":"Dev"
-    "professionnal-project": "Poursuite en alternance"
-    "hobbies":["Jeux vidéo","Cinéma","Sport"]
+    "bootcamp":"Dev",
+    "professionnal-project": "Poursuite en alternance",
+    "hobbies":["Jeux vidéo","Cinéma","Sport"],
     "quote": "",
     "githublink": "https://github.com/lesage-emeric",
-    "linkedin": "www.linkedin.com/in/emeric-lesage-610934285"
+    "linkedin": "www.linkedin.com/in/emeric-lesage-610934285",
     "imgpro": "pp-emericl.jpeg",
     "imgfun": ""
-}
-
+    }
 {
     "firstname": "Claire",
     "lastname": "Mercier",
-    "bootcamp":"Data"
-    "professionnal-project": ""
-    "hobbies":["Biologie","Jeux de société",""]
+    "bootcamp":"Data",
+    "professionnal-project": "",
+    "hobbies":["Biologie","Jeux de société",""],
     "quote": "",
     "githublink": "",
     "linkedin": "https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm
-"
+",
     "imgpro": "",
     "imgfun": ""
     }
 {
     "firstname": "Nicolas",
     "lastname": "Durant",
-    "bootcamp":"Data"
-    "professionnal-project": ""
-    "hobbies":["Cyclisme","",""]
+    "bootcamp":"Data",
+    "professionnal-project": "",
+    "hobbies":["Cyclisme","",""],
     "quote": "",
     "githublink": "",
     "linkedin": "https://fr.linkedin.com/in/nicolas-durant-51b41b140
-"
+",
     "imgpro": "",
     "imgfun": ""
     }
@@ -41,24 +40,24 @@
 {
     "firstname": "",
     "lastname": "",
-    "bootcamp":""
-    "professionnal-project": ""
-    "hobbies":["","",""]
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
     "quote": "",
     "githublink": "",
-    "linkedin": ""
+    "linkedin": "",
     "imgpro": "",
     "imgfun": ""
     }
     {
     "firstname": "",
     "lastname": "",
-    "bootcamp":""
-    "professionnal-project": ""
-    "hobbies":["","",""]
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
     "quote": "",
     "githublink": "",
-    "linkedin": ""
+    "linkedin": "",
     "imgpro": "",
     "imgfun": ""
     }
