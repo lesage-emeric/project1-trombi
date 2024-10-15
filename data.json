@@ -89,7 +89,8 @@
 			"bootcamp": "Développeur full stack",
 			"professionnal-project": "",
 			"hobbies": ["Cinéma", "Écriture", "Musique"],
-			"quote": "",
+			"quote": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light - Albus Dumbledore, 
+            Harry Potter et le Prisonnier d'Azkaban",
 			"githublink": "https://github.com/itisalicia",
 			"linkedin": "https://www.linkedin.com/in/alicia-magro-3b658a292/",
 			"imgpro": "imgProAliciaM.jpeg",
@@ -184,3 +185,5 @@
 		}
 	]
 }
+
+

@@ -1,8 +1,8 @@
 :root {
-	--backgroundColor: #ffcc01;
-	--bluePokemon: #385ca5;
-	--devColor: #a206b7;
-	--dataColor: #2667ef;
+  --backgroundColor: #ffcc01;
+  --bluePokemon: #385ca5;
+  --devColor: #d6444c;
+  --dataColor: #2667ef;
 }
 * {
 	box-sizing: border-box;
