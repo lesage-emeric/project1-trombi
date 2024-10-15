@@ -1,18 +1,18 @@
 :root {
-  --backgroundColor: #ffcc01;
-  --bluePokemon: #385ca5;
-  --devColor: #a206b7;
-  --dataColor: #2667ef;
+	--backgroundColor: #ffcc01;
+	--bluePokemon: #385ca5;
+	--devColor: #a206b7;
+	--dataColor: #2667ef;
 }
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: var(--backgroundColor);
-  font-family: "Hind Siliguri", sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: var(--backgroundColor);
+	font-family: "Hind Siliguri", sans-serif;
 }
 
 /* STYLE DE LA NAV 
@@ -22,70 +22,67 @@ STYLE DE LA NAV
 */
 
 .wildexCarte {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .photoPro {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.photoProEmericL {
-  width: 75%;
-  border-radius: 200%;
-  margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 75%;
+	border-radius: 200%;
+	margin: auto;
 }
 
 .name {
-  margin: 10px;
+	margin: 10px;
 }
 
 .cardBack h6 {
-  width: 100%;
-  text-align: center;
-  color: var(--backgroundColor);
-  margin: auto;
+	width: 100%;
+	text-align: center;
+	color: var(--backgroundColor);
+	margin: auto;
 }
 
 .h6return {
-  transform: rotate(180deg);
+	transform: rotate(180deg);
 } /* * {
     margin: 0;
     padding: 0;
 } */
 
 #logoWildex {
-  height: 10em;
-  width: auto;
+	height: 10em;
+	width: auto;
 }
 
 nav {
-  background-color: var(--backgroundColor);
-  width: 100%;
-  height: 20rem;
-  margin-bottom: 30px;
+	background-color: var(--backgroundColor);
+	width: 100%;
+	height: 20rem;
+	margin-bottom: 30px;
 }
 
 .filter {
-  margin: 30px;
-  display: flex;
-  justify-content: space-between;
+	margin: 30px;
+	display: flex;
+	justify-content: space-between;
 }
 
 #search {
-  padding: 5px;
-  border-radius: 15px;
-  width: 20rem;
-  border: 2px solid black;
-  font-size: 15px;
+	padding: 5px;
+	border-radius: 15px;
+	width: 20rem;
+	border: 2px solid black;
+	font-size: 15px;
 }
 
 #navSentence {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #365fac;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #365fac;
 }
 
 /* STYLE CARD BACK 
@@ -95,47 +92,47 @@ STYLE CARD BACK
 */
 
 .cardBack {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  background-color: var(--bluePokemon);
-  border-radius: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	background-color: var(--bluePokemon);
+	border-radius: 30px;
 }
 .cardBack:hover {
-  transform: translate(0px, -50px);
-  transition: all 0.3s ease-out;
+	transform: translate(0px, -50px);
+	transition: all 0.3s ease-out;
 }
 
 .pokewildex {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .photoPro {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .photoProEmericL {
-  width: 75%;
-  border-radius: 200%;
-  margin: auto;
+	width: 75%;
+	border-radius: 200%;
+	margin: auto;
 }
 
 .name {
-  margin: 10px;
+	margin: 10px;
 }
 
 .cardBack h6 {
-  width: 100%;
-  text-align: center;
-  color: rgb(230, 216, 21);
-  margin: auto;
+	width: 100%;
+	text-align: center;
+	color: rgb(230, 216, 21);
+	margin: auto;
 }
 
 .h6return {
-  transform: rotate(180deg);
+	transform: rotate(180deg);
 } /* * {
     margin: 0;
     padding: 0;
@@ -148,73 +145,73 @@ STYLE CARD FRONT
 */
 
 .cardFront {
-  background-color: var(--devColor);
-  border: 2px solid black;
-  border-radius: 20px;
-  padding: 20px;
-  height: 38rem;
-  width: 30rem;
-  color: var(--backgroundColor);
-  /* display: none; */
+	background-color: var(--devColor);
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	height: 38rem;
+	width: 30rem;
+	color: var(--backgroundColor);
+	/* display: none; */
 }
 
 .articleCardFront {
-  display: flex;
-  flex-flow: column;
+	display: flex;
+	flex-flow: column;
 }
 
 .logo {
-  display: flex;
-  justify-content: end;
+	display: flex;
+	justify-content: end;
 }
 
 .logoGitHub {
-  height: 3rem;
-  width: 3rem;
-  margin: 10px 5px 5px 5px;
+	height: 3rem;
+	width: 3rem;
+	margin: 10px 5px 5px 5px;
 }
 
 .logoLinkedin {
-  height: 4rem;
-  width: 4rem;
-  margin: 3px 5px 5px 5px;
+	height: 4rem;
+	width: 4rem;
+	margin: 3px 5px 5px 5px;
 }
 .titleCardFront {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .titreCardFront,
 .titre2CardFront {
-  font-size: 1.3rem;
+	font-size: 1.3rem;
 }
 .titre {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
 }
 .pictureCardFront {
-  height: 15rem;
-  width: 12rem;
-  margin-left: 130px;
+	height: 15rem;
+	width: 12rem;
+	margin-left: 130px;
 }
 
 .quoteCardFront {
-  font-style: italic;
-  text-align: justify;
-  padding: 5px;
+	font-style: italic;
+	text-align: justify;
+	padding: 5px;
 }
 
 .hobbies {
-  text-align: justify;
-  padding: 5px;
+	text-align: justify;
+	padding: 5px;
 }
 
 body {
-  /* margin-left: 10%; */
-  /* margin-right: 10%; */
-  background-color: var(--backgroundColor);
-  margin: 0;
+	/* margin-left: 10%; */
+	/* margin-right: 10%; */
+	background-color: var(--backgroundColor);
+	margin: 0;
 }
 
 /* STYLE CLASSEUR
@@ -225,67 +222,67 @@ STYLE CLASSEUR
 
 /* Taille et couleur du fond  du classeur */
 .moitieClasseur {
-  background-color: rgb(56, 56, 56);
-  border-radius: 18px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  border-style: dashed double none;
-  border: 2px black;
+	background-color: rgb(56, 56, 56);
+	border-radius: 18px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	border-style: dashed double none;
+	border: 2px black;
 }
 
 /* chaque case individuelle du classeur */
 .case {
-  border-width: 0px 2px 2px 2px;
-  border-color: white;
-  border-style: dashed;
-  margin: auto;
-  height: 70%;
-  width: 75%;
+	border-width: 0px 2px 2px 2px;
+	border-color: white;
+	border-style: dashed;
+	margin: auto;
+	height: 70%;
+	width: 75%;
 }
 
 .classeur {
-  display: flex;
-  background-color: blanchedalmond;
-  border: 5px double lightslategray;
-  border-bottom-left-radius: 3%;
-  border-bottom-right-radius: 3%;
-  border-top-left-radius: 3%;
-  border-top-right-radius: 3%;
-  width: 80vw;
-  height: 120vh;
-  margin: auto;
+	display: flex;
+	background-color: blanchedalmond;
+	border: 5px double lightslategray;
+	border-bottom-left-radius: 3%;
+	border-bottom-right-radius: 3%;
+	border-top-left-radius: 3%;
+	border-top-right-radius: 3%;
+	width: 80vw;
+	height: 120vh;
+	margin: auto;
 }
 
 .classeurGauche {
-  border-radius: 3% 0px 0px 3%;
-  box-shadow: 2px 0px 10px 1px black;
+	border-radius: 3% 0px 0px 3%;
+	box-shadow: 2px 0px 10px 1px black;
 }
 
 .classeurDroite {
-  background-color: rgb(71, 71, 71);
-  border-radius: 0px 3% 3% 0px;
-  box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
+	background-color: rgb(71, 71, 71);
+	border-radius: 0px 3% 3% 0px;
+	box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
 }
 
 footer {
-  /* margin-top: 10%; */
-  height: 50px;
-  background-color: var(--bluePokemon);
-  text-align: center;
-  /* padding-bottom: 10%; */
-  width: 100%;
-  position: absolute;
-  border: 4px double lightslategray;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
+	/* margin-top: 10%; */
+	height: 50px;
+	background-color: var(--bluePokemon);
+	text-align: center;
+	/* padding-bottom: 10%; */
+	width: 100%;
+	position: absolute;
+	border: 4px double lightslategray;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
 }
 
 .pokeball {
-  height: 25px;
-  width: 25px;
-  margin-top: 8px;
+	height: 25px;
+	width: 25px;
+	margin-top: 8px;
 }
