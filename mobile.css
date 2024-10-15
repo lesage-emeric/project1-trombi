@@ -1,18 +1,21 @@
 @media screen and (max-width: 900px) {
-  #logoWildex {
-    margin-left: 120px;
-    height: 7rem;
-  }
+#logoWildex {
+  margin-left: 120px;
+  height: 7rem;
+}
 
   #navSentence {
     font-size: 1.1rem;
     display: flex;
-    place-content: center;
+    /* align-items: center; */
+    margin-left: 140px;
+    margin-bottom: 50px;
   }
 
   .titre {
     all: unset;
   }
+
 
   #search {
     display: flex;
@@ -29,6 +32,81 @@
     flex-direction: column;
     box-shadow: none;
   }
+
+.filter {
+  display: none;
+}
+
+/* STYLE MENU BURGER
+STYLE MENU BURGER
+STYLE MENU BURGER
+STYLE MENU BURGER */
+
+span {
+  display: block;
+  width: 2.2rem;
+  height: 0.4rem;
+  background-color: black;
+  margin: 5px 0;
+  cursor: pointer; 
+}
+  
+.dropdown {
+  position: relative;
+  display: inline-block;
+  position: absolute; 
+  top: 0;
+  margin: 5px;
+}
+  
+.dropdown-content {
+  display: none;
+  /* position: absolute; */
+  width: 180px;
+  height: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0.5, 0.5, 0.5, 0.5);
+  background-color: var(background-color);
+  line-height: 30px;
+  border: 2px solid #385ca5;
+  border-radius: 15px;
+  padding: 10px;
+}
+  
+.dropdown:hover,
+.dropbtn {
+  background-color: var(--backgroundColor);
+}
+
+label, input:hover {
+  cursor: pointer;
+}
+
+.dropdown:hover 
+.dropdown-content {
+  display: block;
+}
+
+hr {
+  visibility: visible;
+  height: 5px;
+  background-color: black;
+  position: relative;
+}
+
+/* header {
+  position: relative;
+} */
+
+
+#pokeballNavMobile {
+  visibility: visible;
+  height: 7rem;
+  position: absolute;
+  top: 164px;
+  left: 160px;
+  
+}
+
 
   .moitieClasseur {
     background-color: #ffcc01;
