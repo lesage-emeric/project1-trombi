@@ -121,7 +121,7 @@
     "githublink": "",
     "linkedin": "",
     "imgpro": "",
-    "imgfun": ""
+    "imgfun": "imgFunHalimM.png"
     }
 
 
@@ -175,7 +175,7 @@
     "githublink": "",
     "linkedin": "",
     "imgpro": "",
-    "imgfun": ""
+    "imgfun": "imgFunThomasL.jpg"
     }
 {
     "firstname": "Reem",
@@ -183,24 +183,22 @@
     "bootcamp":"Data",
     "professionnal-project": "",
     "hobbies":["Manga","Animés"],
-    "quote": `"When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.”
-― Dr. Hiriluk One Piece`
+    "quote": "When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.”,
     "githublink": "",
-    "linkedin": "https://www.linkedin.com/in/r-bouqueau/
-",
+    "linkedin": "https://www.linkedin.com/in/r-bouqueau/",
     "imgpro": "",
     "imgfun": ""
     }
 {
-    "firstname": "",
-    "lastname": "",
-    "bootcamp":"",
-    "professionnal-project": "",
-    "hobbies":["","",""],
-    "quote": "",
-    "githublink": "",
-    "linkedin": "",
+    "firstname": "Arnaud",
+    "lastname": "Guevaert",
+    "bootcamp":"Dev",
+    "professionnal-project": "Développeur web",
+    "hobbies":["Jeux vidéo","Randonnée","Cinéma","Motos"],
+    "quote": "Fais le ou ne le fais pas, il n'y a pas d'essai",
+    "githublink": "https://github.com/Arnaud6216",
+    "linkedin": "https://www.linkedin.com/in/guevaer-arnaud-11434a2a9/",
     "imgpro": "",
-    "imgfun": ""
+    "imgfun": "imgFunArnaudG.jpg"
     }
 }
