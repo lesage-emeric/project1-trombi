@@ -1,20 +1,18 @@
 {
 	"test": [
 		{
-			"firstname": "Emeric",
-			"lastname": "Lesage",
+			"name": "Emeric L",
 			"bootcamp": "Dev",
 			"professionnal-project": "Poursuite en alternance",
 			"hobbies": ["Jeux vidéo", "Cinéma", "Sport"],
 			"quote": "Pour chaque fin, il y a toujours un nouveau départ",
 			"githublink": "https://github.com/lesage-emeric",
 			"linkedin": "www.linkedin.com/in/emeric-lesage-610934285",
-			"imgpro": "imgProEmericL.jpeg",
-			"imgfun": "imgFunEmericL.jpg"
+			"imgpro": "photos-pro/imgProEmericL.jpeg",
+			"imgfun": "photos-fun/imgFunEmericL.jpg"
 		},
 		{
-			"firstname": "Louis",
-			"lastname": "Verschooris",
+			"name": "Louis V",
 			"bootcamp": "Dev",
 			"professionnal-project": "Poursuite en alternance",
 			"hobbies": ["E-commmerce", "Business", "Sport"],
@@ -25,8 +23,7 @@
 			"imgfun": ""
 		},
 		{
-			"firstname": "Claire",
-			"lastname": "Mercier",
+			"name": "Claire M",
 			"bootcamp": "Data",
 			"professionnal-project": "",
 			"hobbies": ["Biologie", "Jeux de société", ""],
@@ -37,8 +34,7 @@
 			"imgfun": ""
 		},
 		{
-			"firstname": "Nicolas",
-			"lastname": "Durant",
+			"name": "Nicolas D",
 			"bootcamp": "Data",
 			"professionnal-project": "",
 			"hobbies": ["Cyclisme", "", ""],
@@ -49,18 +45,18 @@
 			"imgfun": ""
 		},
 		{
-			"firstname": "Mathieu",
-			"lastname": "Priez",
+			"name": "Mathieu P",
 			"bootcamp": "Dev",
 			"professionnal-project": " Poursuite en Alternance",
 			"hobbies": ["Football", "Musique", "Cinéma "],
 			"quote": "Le gras c'est la vie",
 			"githublink": "htpps://https://github.com/Supremebatmat",
-			"linkedin": "https://www.linkedin.com/in/"
+			"linkedin": "https://www.linkedin.com/in/",
+			"imgpro": "",
+			"imgfun": ""
 		},
 		{
-			"firstname": "Julien",
-			"lastname": "Ido",
+			"name": "Julien I",
 			"bootcamp": "Dev",
 			"professionnal-project": "C'est encore vague mais du coup dans le dev a 90%. On ne sait pas de quoi est demain fait",
 			"hobbies": ["Sport", "Animaux", "Voitures"],
@@ -71,8 +67,7 @@
 			"imgfun": ""
 		},
 		{
-			"firstname": "Benjamin",
-			"lastname": "Regnier",
+			"name": "Benjamin R",
 			"bootcamp": "Data",
 			"professionnal-project": "",
 			"hobbies": ["La data", "Course à pied", ""],
@@ -84,8 +79,7 @@
 			"imgfun": ""
 		},
 		{
-			"firstname": "Alicia",
-			"lastname": "Magro",
+			"name": "Alicia M",
 			"bootcamp": "Développeur full stack",
 			"professionnal-project": "",
 			"hobbies": ["Cinéma", "Écriture", "Musique"],
@@ -93,12 +87,11 @@
             Harry Potter et le Prisonnier d'Azkaban",
 			"githublink": "https://github.com/itisalicia",
 			"linkedin": "https://www.linkedin.com/in/alicia-magro-3b658a292/",
-			"imgpro": "imgProAliciaM.jpeg",
-			"imgfun": "imgFunAliciaM.jpeg"
+			"imgpro": "photos-pro/imgProAliciaM.jpeg",
+			"imgfun": "photos-fun/imgFunAliciaM.jpeg"
 		},
 		{
-			"firstname": "Halim",
-			"lastname": "Moulay",
+			"name": "Halim M",
 			"bootcamp": "Data",
 			"professionnal-project": "",
 			"hobbies": ["Escalade", "Films", "Voyages"],
@@ -106,12 +99,11 @@
 			"githublink": "",
 			"linkedin": "",
 			"imgpro": "",
-			"imgfun": ""
+			"imgfun": "photos-fun/imgFunHalimM.png"
 		},
 
 		{
-			"firstname": "Ludovic",
-			"lastname": "Simunek",
+			"name": "Ludovic S",
 			"bootcamp": "Data",
 			"professionnal-project": "",
 			"hobbies": ["Moto", "Informatique", "Théâtre"],
@@ -122,8 +114,7 @@
 			"imgfun": ""
 		},
 		{
-			"firstname": "Timothey",
-			"lastname": "Mesmacque",
+			"name": "Timothey M",
 			"bootcamp": "Dev",
 			"professionnal-project": "",
 			"hobbies": ["Jeux vidéos", "Musique"],
@@ -135,8 +126,7 @@
 		},
 
 		{
-			"firstname": "Antoine",
-			"lastname": "Foubert",
+			"name": "Antoine F",
 			"bootcamp": "Dev",
 			"professionnal-project": "",
 			"hobbies": ["Basket", "Judo", "Musique", "Cinéma"],
@@ -148,8 +138,7 @@
 		},
 
 		{
-			"firstname": "Thomas",
-			"lastname": "Lamisse",
+			"name": "Thomas L",
 			"bootcamp": "Dev",
 			"professionnal-project": "",
 			"hobbies": ["Jeux vidéo", "Sport", "Animés"],
@@ -157,11 +146,10 @@
 			"githublink": "",
 			"linkedin": "",
 			"imgpro": "",
-			"imgfun": ""
+			"imgfun": "photos-fun/imgFunThomasL.jpg"
 		},
 		{
-			"firstname": "Reem",
-			"lastname": "Bouqueau",
+			"name": "Reem B",
 			"bootcamp": "Data",
 			"professionnal-project": "",
 			"hobbies": ["Manga", "Animés"],
@@ -172,11 +160,109 @@
 			"imgfun": ""
 		},
 		{
-			"firstname": "",
-			"lastname": "",
+			"name": "Elena D",
+			"bootcamp": "Data",
+			"professionnal-project": "J'aimerai travailler dans la DATA dans le secteur du jeux video ou dans l'internationale",
+			"hobbies": ["Jeux vidéo", "Animés", "Manga", "Voyages"],
+			"quote": "Aie confiance en toi-même, et tu sauras vivre.",
+			"githublink": "",
+			"linkedin": "www.linkedin.com/in/elena-degallaix-533324269",
+			"imgpro": "",
+			"imgfun": "photos-fun/imgFunElenaD.jpeg"
+		}
+		{
+			"name": "Ludovic M",
+			"bootcamp": "Data",
+			"professionnal-project": "",
+			"hobbies": ["Handball"],
+			"quote": "Changeons quelque chose pour obtenir un résultat différent",
+			"githublink": "",
+			"linkedin": "https://www.linkedin.com/in/ludovic-maillard-7179412a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+			"imgpro": "",
+			"imgfun": "photos-fun/imgFunLudovicM.jpg"
+		}	
+			{
+			"name": "Arnaud G",
+			"bootcamp": "Dev",
+			"professionnal-project": "Développeur web",
+			"hobbies": ["Jeux vidéo", "Randonnés", "Cinéma", "Motos"],
+			"quote": "Fais le ou ne le fais pas, il n'y a pas d'essai",
+			"githublink": "https://github.com/Arnaud6216",
+			"linkedin": "https://www.linkedin.com/in/guevaer-arnaud-11434a2a9/",
+			"imgpro": "",
+			"imgfun": "photos-fun/imgFunArnaudG.jpg"
+		}
+			{
+			"name": "Tiphaine S",
 			"bootcamp": "",
 			"professionnal-project": "",
-			"hobbies": ["", "", ""],
+			"hobbies": ["Randonnées", "Patisserie", "Roller"],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "linkedin.com/in/tiphaine-subtil",
+			"imgpro": "",
+			"imgfun": ""
+		}
+			{
+			"name": "Antonin D",
+			"bootcamp": "Data",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "Ceux qui ont une montre n'ont pas le temps",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+			{
+			"name": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+			{
+			"name": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"name": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"name": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"name": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
 			"quote": "",
 			"githublink": "",
 			"linkedin": "",
@@ -185,5 +271,3 @@
 		}
 	]
 }
-
-
