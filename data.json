@@ -141,14 +141,14 @@
     }
 
 {
-    "firstname": "",
-    "lastname": "",
-    "bootcamp":"",
+    "firstname": "Antoine",
+    "lastname": "Foubert",
+    "bootcamp":"Dev",
     "professionnal-project": "",
-    "hobbies":["","",""],
+    "hobbies":["Basket","Judo","Musique", "Cinéma"],
     "quote": "",
     "githublink": "",
-    "linkedin": "",
+    "linkedin": "https://github.com/Foub404 / https://www.linkedin.com/in/antoine-foubert-152ba413b/",
     "imgpro": "",
     "imgfun": ""
     }
