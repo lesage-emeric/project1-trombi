@@ -74,19 +74,24 @@ nav {
   justify-content: space-between;
 }
 
-#search {
-  padding: 5px;
-  border-radius: 15px;
-  width: 20rem;
-  border: 2px solid black;
-  font-size: 15px;
-}
 
 #navSentence {
   font-size: 1.5rem;
   font-weight: 700;
   color: #365fac;
 }
+
+/* NAV MOBILE 
+NAV MOBILE 
+NAV MOBILE 
+NAV MOBILE  */
+
+.dropdown,
+#pokeballNavMobile,
+hr { 
+  visibility: hidden;
+}
+
 
 /* STYLE CARD BACK 
 STYLE CARD BACK 
