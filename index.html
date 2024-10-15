@@ -23,118 +23,276 @@
         <label>DATA ANALYST <input type="checkbox" checked /></label>
         <label>DEVELOPPEUR WEB FULL STACK <input type="checkbox" checked /></label>
         <label>FORMATEUR <input type="checkbox" checked /></label>
-        <input type="text" id="search" placeholder="Rechercher..." />
       </section>
+
+      <!-- MENU BURGER MOBILE
+          MENU BURGER MOBILE
+          MENU BURGER MOBILE
+          MENU BURGER MOBILE -->
+      <div class="navMobile">
+        <div class="dropdown">
+          <button id="dropbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="dropdown-content">
+            <label>Data Analyst<input type="checkbox" checked /> </br>
+            </label>
+            <label>Développeur web full stack <input type="checkbox" checked /> </br>
+            </label>
+            <label>Formateurs <input type="checkbox" checked /> </br>
+            </label>
+          </div>
+        </div>
+        <hr>
+        <img src="POKEBALL.png" id="pokeballNavMobile" alt="Pokeball">
+      </div>
     </nav>
   </header>
 
   <!-- DOS DES CARTES -->
 
   <!-- classeur entier -->
-  <div class="classeur">
-    <!-- Section de la première moitié du classeur, suivie de chaque pochette -->
-    <section class="moitieClasseur classeurGauche">
-      <!-- chacune des cases du classeur  -->
-      <article class="case case1">
-        <section class="cardBack">
-          <h6>WILDEX</h6>
-          <article class="photoPro">
-            <img class="photoPro" src="photos-pro/imgProEmericL.jpeg" alt="Photo professionnelle d'Emeric L" />
-            <p class="name">Emeric L</p>
-            <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
-            la photo -->
-          </article>
-          <h6 class="h6return">WILDEX</h6>
+  <div class="flipbook centered" id="flipbook">
+    <div class="leaf">
+      <div class="page front title external" style="background-color:  rgb(56, 56, 56)">
+        <h1>WILDEX</h1>
+        <em>ATTRAPEZ LES TOUS</em>
+      </div>
+      <div class="page back" style="background-color:  rgb(56, 56, 56)">
 
-          <!-- style POKEMON écrit à l'envers -->
-        </section>
-      </article>
-      <article class="case case2">
-        <section class="cardBack">
-          <h6>WILDEX</h6>
-          <article class="photoPro">
-            <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
-              alt="Photo professionnelle d'Emeric Lesage" />
-            <p class="name">Emeric L</p>
-            <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
-                    la photo -->
+        <section class="moitieClasseur classeurGauche">
+          <!-- chacune des cases du classeur  -->
+          <article class="case case1">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
           </article>
-          <h6 class="h6return">WILDEX</h6>
+          <article class="case case2"></article>
+          <article class="case case3"></article>
+          <article class="case case4"></article>
+        </section>
+      </div>
+    </div>
+    <div class="leaf">
+      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+        <section class="moitieClasseur classeurDroite">
+          <article class="case case5">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                  la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
+          </article>
+          <article class="case case6"></article>
+          <article class="case case7"></article>
+          <article class="case case8"></article>
+        </section>
+      </div>
+      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+        <section class="moitieClasseur classeurGauche">
+          <!-- chacune des cases du classeur  -->
+          <article class="case case1">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
 
-          <!-- style POKEMON écrit à l'envers -->
-        </section>
-      </article>
-      <article class="case case3"></article>
-      <article class="case case4"></article>
-    </section>
-    <!-- Section de la seconde moitié du classeur, suivie de chaque pochette -->
-    <section class="moitieClasseur classeurDroite">
-      <article class="case case5">
-        <section class="cardBack">
-          <h6>WILDEX</h6>
-          <article class="photoPro">
-            <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
-              alt="Photo professionnelle d'Emeric Lesage" />
-            <p class="name">Emeric L</p>
-            <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
-          la photo -->
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
           </article>
-          <h6 class="h6return">WILDEX</h6>
-          <!-- style POKEMON écrit à l'envers -->
+          <article class="case case2"></article>
+          <article class="case case3"></article>
+          <article class="case case4"></article>
         </section>
-      </article>
-      <article class="case case6"></article>
-      <article class="case case7"></article>
-      <article class="case case8"></article>
-    </section>
+      </div>
+    </div>
+    <div class="leaf">
+      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+        <section class="moitieClasseur classeurGauche">
+          <!-- chacune des cases du classeur  -->
+          <article class="case case1">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
+
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
+          </article>
+          <article class="case case2"></article>
+          <article class="case case3"></article>
+          <article class="case case4"></article>
+        </section>
+      </div>
+      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+        <section class="moitieClasseur classeurGauche">
+          <!-- chacune des cases du classeur  -->
+          <article class="case case1">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
+
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
+          </article>
+          <article class="case case2"></article>
+          <article class="case case3"></article>
+          <article class="case case4"></article>
+        </section>
+      </div>
+    </div>
+    <div class="leaf">
+      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+        <section class="moitieClasseur classeurGauche">
+          <!-- chacune des cases du classeur  -->
+          <article class="case case1">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
+
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
+          </article>
+          <article class="case case2"></article>
+          <article class="case case3"></article>
+          <article class="case case4"></article>
+        </section>
+      </div>
+      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+        <section class="moitieClasseur classeurGauche">
+          <!-- chacune des cases du classeur  -->
+          <article class="case case1">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
+
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
+          </article>
+          <article class="case case2"></article>
+          <article class="case case3"></article>
+          <article class="case case4"></article>
+        </section>
+      </div>
+    </div>
+    <div class="leaf">
+      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+        <section class="moitieClasseur classeurGauche">
+          <!-- chacune des cases du classeur  -->
+          <article class="case case1">
+            <section class="cardBack">
+              <h6>WILDEX</h6>
+              <article class="photoPro">
+                <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                  alt="Photo professionnelle d'Emeric Lesage" />
+                <p class="name">Emeric L</p>
+                <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                la photo -->
+              </article>
+              <h6 class="h6return">WILDEX</h6>
+
+              <!-- style POKEMON écrit à l'envers -->
+            </section>
+          </article>
+          <article class="case case2"></article>
+          <article class="case case3"></article>
+          <article class="case case4"></article>
+        </section>
+        <div class="page back" style="background-color:  rgb(56, 56, 56)">
+          <section class="moitieClasseur classeurGauche">
+            <!-- chacune des cases du classeur  -->
+            <article class="case case1">
+              <section class="cardBack">
+                <h6>WILDEX</h6>
+                <article class="photoPro">
+                  <img class="photoProEmericL" src="photos-pro/imgProEmericL.jpeg"
+                    alt="Photo professionnelle d'Emeric Lesage" />
+                  <p class="name">Emeric L</p>
+                  <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
+                  la photo -->
+                </article>
+                <h6 class="h6return">WILDEX</h6>
+
+                <!-- style POKEMON écrit à l'envers -->
+              </section>
+            </article>
+            <article class="case case2"></article>
+            <article class="case case3"></article>
+            <article class="case case4"></article>
+          </section>
+        </div>
+
+      </div>
+    </div>
+    <div class="leaf">
+      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+
+      </div>
+      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+      </div>
+    </div>
   </div>
-
-  <!-- BASE DU CODE POUR LE FRONT DE LA CARD
-     BASE DU CODE POUR LE FRONT DE LA CARD
-     BASE DU CODE POUR LE FRONT DE LA CARD
-     BASE DU CODE POUR LE FRONT DE LA CARD
-    -->
-
-  <section class="cardFront">
-    <article class="articleCardFront">
-      <div class="titleCardFront">
-        <h2 class="titreCardFront">Emeric L</h2>
-        <h2 class="titre2CardFront">DEV</h2>
-      </div>
-
-      <!-- BIEN CHANGER L'URL DE LA PHOTO !!! 
-      BIEN CHANGER L'URL DE LA PHOTO !!!
-      BIEN CHANGER L'URL DE LA PHOTO !!!
-      BIEN CHANGER L'URL DE LA PHOTO !!!
-      BIEN CHANGER L'URL DE LA PHOTO !!! -->
-
-      <img class="pictureCardFront" src="photos-fun/imgFunEmericL.jpg" alt="Photo fun d'Emeric Lesage" />
-
-      <blockquote class="quoteCardFront">
-        Pour chaque fin, il y a toujours un nouveau départ
-      </blockquote>
-
-      <article class="hobbies">
-        <ul>
-          <li>Jeux vidéo</li>
-          <li>Cinéma</li>
-          <li>Sport</li>
-        </ul>
-      </article>
-      <div class="logo">
-        <a href="https://github.com/"><img src="logoGitHub2.png" class="logoGitHub" alt="logo de github" /></a>
-        <a href="https://www.linkedin.com/"><img src="logo-linkedIn.png" class="logoLinkedin" alt="logo Linkedin" /></a>
-      </div>
-    </article>
-  </section>
+  <div class="controls centered">
+    <button id="prevPage">&lt; Previous</button>
+    <button id="nextPage">Next &gt;</button>
+  </div>
 
   <script src="index.js"></script>
 
   <footer>
     <img class="pokeball" src="pokeball.gif" alt="" />Copyright © 2024<img class="pokeball" src="pokeball.gif" alt="" />
-    <img class="pokeball" src="pokeball.gif" alt="" />Je suis le footer
   </footer>
-  <script src="index.js"></script>
 </body>
 
 </html>
