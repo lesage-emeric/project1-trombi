@@ -14,10 +14,35 @@
     all: unset;
   }
 
-   #search {
+  #search {
     display: flex;
-
   }
 
-}
+  .classeur {
+    all: unset;
+  }
+  .classeurDroite {
+    display: none;
+  }
+  .classeurGauche {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+  }
 
+  .moitieClasseur {
+    background-color: #ffcc01;
+  }
+  .case1 {
+    height: 100vh;
+  }
+
+  .photoPro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* footer {
+    position: relative;
+  } */
+}
