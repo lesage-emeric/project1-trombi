@@ -1,9 +1,23 @@
 @media screen and (max-width: 900px) {
-  body {
-    background-color: aqua;
+  #logoWildex {
+    margin-left: 120px;
+    height: 7rem;
   }
+
+  #navSentence {
+    font-size: 1.1rem;
+    display: flex;
+    place-content: center;
+  }
+
+  .titre {
+    all: unset;
+  }
+
+   #search {
+    display: flex;
+
+  }
+
 }
 
-header {
-  width: 100%;
-}
