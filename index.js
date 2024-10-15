@@ -2,6 +2,8 @@
 // case1.classList.add()
 // case1.append()
 
+
+
 // POUR LES PAGES QUI TOURNENT
 class FlipBook {
 	constructor(bookElem) {
@@ -95,3 +97,4 @@ class PlugBook extends FlipBook {
 }
 
 var flipBook = new FlipBook(document.getElementById("flipbook"));
+
