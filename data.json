@@ -107,7 +107,7 @@
 			"githublink": "",
 			"linkedin": "",
 			"imgpro": "",
-			"imgfun": ""
+			"imgfun": "imgFunHalimM.png"
 		},
 
 		{
@@ -158,7 +158,7 @@
 			"githublink": "",
 			"linkedin": "",
 			"imgpro": "",
-			"imgfun": ""
+			"imgfun": "imgFunThomasL.jpg"
 		},
 		{
 			"firstname": "Reem",
@@ -173,11 +173,119 @@
 			"imgfun": ""
 		},
 		{
+			"firstname": "Elena",
+			"lastname": "Degallaix",
+			"bootcamp": "Data",
+			"professionnal-project": "J'aimerai travailler dans la DATA dans le secteur du jeux video ou dans l'internationale",
+			"hobbies": ["Jeux vidéo", "Animés", "Manga", "Voyages"],
+			"quote": "Aie confiance en toi-même, et tu sauras vivre.",
+			"githublink": "",
+			"linkedin": "www.linkedin.com/in/elena-degallaix-533324269",
+			"imgpro": "",
+			"imgfun": "imgFunElenaD.jpeg"
+		}
+		{
+			"firstname": "Ludovic",
+			"lastname": "Maillard",
+			"bootcamp": "Data",
+			"professionnal-project": "",
+			"hobbies": ["Handball"],
+			"quote": "Changeons quelque chose pour obtenir un résultat différent",
+			"githublink": "",
+			"linkedin": "https://www.linkedin.com/in/ludovic-maillard-7179412a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+			"imgpro": "",
+			"imgfun": "imgFunLudovicM.jpg"
+		}	
+			{
+			"firstname": "Arnaud",
+			"lastname": "Guevaert",
+			"bootcamp": "Dev",
+			"professionnal-project": "Développeur web",
+			"hobbies": ["Jeux vidéo", "Randonnés", "Cinéma", "Motos"],
+			"quote": "Fais le ou ne le fais pas, il n'y a pas d'essai",
+			"githublink": "https://github.com/Arnaud6216",
+			"linkedin": "https://www.linkedin.com/in/guevaer-arnaud-11434a2a9/",
+			"imgpro": "",
+			"imgfun": "imgFunArnaudG.jpg"
+		}
+			{
+			"firstname": "Tiphaine",
+			"lastname": "Subtil",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["Randonnées", "Patisserie", "Roller"],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "linkedin.com/in/tiphaine-subtil",
+			"imgpro": "",
+			"imgfun": ""
+		}
+			{
 			"firstname": "",
 			"lastname": "",
 			"bootcamp": "",
 			"professionnal-project": "",
-			"hobbies": ["", "", ""],
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+			{
+			"firstname": "",
+			"lastname": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+			{
+			"firstname": "",
+			"lastname": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"firstname": "",
+			"lastname": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"firstname": "",
+			"lastname": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"firstname": "",
+			"lastname": "",
+			"bootcamp": "",
+			"professionnal-project": "",
+			"hobbies": ["", "", "", ""],
 			"quote": "",
 			"githublink": "",
 			"linkedin": "",
