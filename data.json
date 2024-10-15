@@ -1,4 +1,6 @@
 {
+
+{
     "firstname": "Emeric",
     "lastname": "Lesage",
     "bootcamp":"Dev",
@@ -8,8 +10,9 @@
     "githublink": "https://github.com/lesage-emeric",
     "linkedin": "www.linkedin.com/in/emeric-lesage-610934285",
     "imgpro": "imgProEmericL.jpeg",
-    "imgfun": "imgFunEmericL.jpg"
-    }
+    "imgfun": "imgFunEmericL.jpg", 
+}   
+
 {
     "firstname": "Louis",
     "lastname": "Verschooris",
@@ -20,8 +23,9 @@
     "githublink": "https://github.com/LouisNoizar",
     "linkedin": "",
     "imgpro": "",
-    "imgfun": ""
-}
+    "imgfun": "",
+
+} 
 
 {
     "firstname": "Claire",
@@ -31,11 +35,11 @@
     "hobbies":["Biologie","Jeux de société",""],
     "quote": "",
     "githublink": "",
-    "linkedin": "https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm
-",
+    "linkedin": "https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm",
     "imgpro": "",
-    "imgfun": ""
+    "imgfun": "",
     }
+
 {
     "firstname": "Nicolas",
     "lastname": "Durant",
@@ -44,8 +48,7 @@
     "hobbies":["Cyclisme","",""],
     "quote": "",
     "githublink": "",
-    "linkedin": "https://fr.linkedin.com/in/nicolas-durant-51b41b140
-",
+    "linkedin": "https://fr.linkedin.com/in/nicolas-durant-51b41b140",
     "imgpro": "",
     "imgfun": ""
     }
@@ -54,18 +57,18 @@
 
     "firstname": "Mathieu",
     "lastname": "Priez",
-    "bootcamp":"Dev"
-    "professionnal-project": " Poursuite en Alternance"
-    "hobbies":["Football","Musique","Cinéma "]
+    "bootcamp":"Dev",
+    "professionnal-project": " Poursuite en Alternance",
+    "hobbies":["Football","Musique","Cinéma "],
     "quote": "Le gras c'est la vie",
     "githublink": "htpps://https://github.com/Supremebatmat",
-    "linkedin": "https://www.linkedin.com/in/
+    "linkedin": "https://www.linkedin.com/in/",
 {
     "firstname": "",
     "lastname": "",
-    "bootcamp":""
-    "professionnal-project": ""
-    "hobbies":["","",""]
+    "bootcamp":"",
+    "professionnal-project": "",
+    "hobbies":["","",""],
     "quote": "",
     "githublink": "",
     "linkedin": "",
@@ -189,3 +192,4 @@
     "imgpro": "",
     "imgfun": ""
     }
+}
