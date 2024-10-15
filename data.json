@@ -51,7 +51,6 @@
     }
 
 {
-
     "firstname": "Mathieu",
     "lastname": "Priez",
     "bootcamp":"Dev",
@@ -59,7 +58,8 @@
     "hobbies":["Football","Musique","Cinéma "],
     "quote": "Le gras c'est la vie",
     "githublink": "htpps://https://github.com/Supremebatmat",
-    "linkedin": "https://www.linkedin.com/in/
+    "linkedin": "https://www.linkedin.com/in/"
+}
 {
     "firstname": "Julien",
     "lastname": "Ido",
@@ -172,11 +172,9 @@
     "bootcamp":"Data",
     "professionnal-project": "",
     "hobbies":["Manga","Animés"],
-    "quote": `"When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.”
-― Dr. Hiriluk One Piece`
+    "quote": "When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.”,
     "githublink": "",
-    "linkedin": "https://www.linkedin.com/in/r-bouqueau/
-",
+    "linkedin": "https://www.linkedin.com/in/r-bouqueau/",
     "imgpro": "",
     "imgfun": ""
     }
