@@ -54,18 +54,19 @@
 
     "firstname": "Mathieu",
     "lastname": "Priez",
-    "bootcamp":"Dev"
-    "professionnal-project": " Poursuite en Alternance"
-    "hobbies":["Football","Musique","Cinéma "]
+    "bootcamp":"Dev",
+    "professionnal-project": " Poursuite en Alternance",
+    "hobbies":["Football","Musique","Cinéma "],
     "quote": "Le gras c'est la vie",
     "githublink": "htpps://https://github.com/Supremebatmat",
     "linkedin": "https://www.linkedin.com/in/
 {
-    "firstname": "",
-    "lastname": "",
-    "bootcamp":""
-    "professionnal-project": ""
-    "hobbies":["","",""]
+    "firstname": "Julien",
+    "lastname": "Ido",
+    "bootcamp":"Dev",
+    "professionnal-project": "C'est encore vague mais du coup dans le dev a 90%. On ne sait pas de quoi est demain fait
+",
+    "hobbies":["Sport","Animaux","Voitures"],
     "quote": "",
     "githublink": "",
     "linkedin": "",
@@ -154,11 +155,11 @@
     }
 
 {
-    "firstname": "",
-    "lastname": "",
-    "bootcamp":"",
+    "firstname": "Thomas",
+    "lastname": "Lamisse",
+    "bootcamp":"Dev",
     "professionnal-project": "",
-    "hobbies":["","",""],
+    "hobbies":["Jeux vidéo","Sport","Animés"],
     "quote": "",
     "githublink": "",
     "linkedin": "",
@@ -166,14 +167,16 @@
     "imgfun": ""
     }
 {
-    "firstname": "",
-    "lastname": "",
-    "bootcamp":"",
+    "firstname": "Reem",
+    "lastname": "Bouqueau",
+    "bootcamp":"Data",
     "professionnal-project": "",
-    "hobbies":["","",""],
-    "quote": "",
+    "hobbies":["Manga","Animés"],
+    "quote": `"When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.”
+― Dr. Hiriluk One Piece`
     "githublink": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/r-bouqueau/
+",
     "imgpro": "",
     "imgfun": ""
     }
