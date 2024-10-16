@@ -373,9 +373,10 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 				"Happiness can be found, even in the darkest of times, if one only remembers to turn on the light",
 			githublink: "https://github.com/itisalicia",
 			linkedin: "https://www.linkedin.com/in/alicia-magro-3b658a292/",
-			imgpro: "photos-pro/imgProAliciaM.jpeg",
-			imgfun: "photos-fun/imgFunAliciaM.jpeg",
+			imgpro: "photos-pro/imgProAliciaM.jpg",
+			imgfun: "photos-fun/imgFunAliciaM.jpg",
 		},
+
 		{
 			name: "Halim M",
 			bootcamp: "Data",
@@ -396,7 +397,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "Il faut se méfier de l'eau qui dort",
 			githublink: "",
 			linkedin: "https://www.linkedin.com/in/ludovic-simunek/",
-			imgpro: "photos-pro/imgProLucodivS.png",
+			imgpro: "photos-pro/imgProLudovicS.png",
 			imgfun: "",
 		},
 		{
@@ -505,7 +506,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "Ceux qui ont une montre n'ont pas le temps",
 			githublink: "",
 			linkedin: "",
-			imgpro: "photos-pro/imgProAntonin D.png",
+			imgpro: "photos-pro/imgProAntoninD.png",
 			imgfun: "",
 		},
 
@@ -530,7 +531,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "",
 			linkedin: "",
-			imgpro: "photos-pro/imgProWilliamsV.png",
+			imgpro: "photos-pro/imgProWilliamV.png",
 			imgfun: "",
 		},
 
@@ -700,6 +701,9 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 
 		const cardBack = document.createElement("cardBack");
 		cardBack.classList.add("cardBack");
+		cardBack.style.width = "350px";
+		cardBack.style.marginBottom = "20px";
+		cardBack.style.marginLeft = "10px";
 
 		const cardTitle = document.createElement("h6");
 		cardTitle.textContent = name;
@@ -725,7 +729,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 	});
 }
 
-cardBack.style.width = '200px';
+
 
 
 
