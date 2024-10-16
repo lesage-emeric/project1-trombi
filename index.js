@@ -99,6 +99,7 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 ///////////////////////////////////
 ///////test event on click/////////
 ///////////////////////////////////
+
 // const flip = document.querySelector(".cardBack");
 // flip.addEventListener("click", () => {
 // 	alert("Check");
@@ -108,6 +109,27 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 // //test edd every card from array/////
 // /////////////////////////////////////
 // const cardBack = document.querySelector(".cardBack");
+
+const imgFlip = document.getElementsByClassName("cardBack");
+imgFlip.addEventListener("click", () => {
+	console.log("TEST !");
+	alert("Check");
+});
+
+imgFlip.onclick = function () {
+	alert("TEST");
+};
+
+const testClic = document.getElementsByTagName("img");
+testClic.addEventListener("click", function () {
+	console.log("TEST");
+	alert("TEST");
+});
+
+/////////////////////////////////////
+//test add every card from array/////
+/////////////////////////////////////
+
 
 // const campus = [
 // 	{
