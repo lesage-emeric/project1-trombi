@@ -169,7 +169,7 @@
 			"linkedin": "www.linkedin.com/in/elena-degallaix-533324269",
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunElenaD.jpeg"
-		}
+		},
 		{
 			"name": "Ludovic M",
 			"bootcamp": "Data",
@@ -180,7 +180,7 @@
 			"linkedin": "https://www.linkedin.com/in/ludovic-maillard-7179412a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunLudovicM.jpg"
-		}	
+		}	,
 			{
 			"name": "Arnaud G",
 			"bootcamp": "Dev",
@@ -191,7 +191,7 @@
 			"linkedin": "https://www.linkedin.com/in/guevaer-arnaud-11434a2a9/",
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunArnaudG.jpg"
-		}
+		},
 			{
 			"name": "Tiphaine S",
 			"bootcamp": "",
@@ -202,7 +202,7 @@
 			"linkedin": "linkedin.com/in/tiphaine-subtil",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 			{
 			"name": "Antonin D",
 			"bootcamp": "Data",
@@ -213,7 +213,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 			{
 			"name": "Soufiane R",
 			"bootcamp": "Data",
@@ -224,7 +224,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 			{
 			"name": "williams V",
 			"bootcamp": "Data",
@@ -235,7 +235,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 				{
 			"name": "Nicolas V",
 			"bootcamp": "Data",
@@ -246,7 +246,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 				{
 			"name": "Fantine R",
 			"bootcamp": "Formatrice Dev",
@@ -257,7 +257,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 				{
 			"name": "",
 			"bootcamp": "",
@@ -268,6 +268,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
+		
 	]
 }
