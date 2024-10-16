@@ -104,9 +104,11 @@ flip.addEventListener("click", () => {
 });
 
 /////////////////////////////////////
-//test edd every card from array/////
+//test add every card from array/////
 /////////////////////////////////////
 const cardBack = document.querySelector(".cardBack");
+
+// const allCampus = require("./data.json");
 
 const campus = [
 	{
@@ -128,33 +130,111 @@ const campus = [
 		quote: "",
 		githublink: "https://github.com/LouisNoizar",
 		linkedin: "",
+		imgpro: "photos-pro/imgProLouisV.png",
+		imgfun: "",
+	},
+	{
+		name: "Claire M",
+		bootcamp: "Data",
+		project: "",
+		hobbies: ["Biologie", "Jeux de société", ""],
+		quote: "",
+		githublink: "",
+		linkedin:
+			"https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm",
+		imgpro: "photos-pro/imgProClaireM.png",
+		imgfun: "",
+	},
+	{
+		name: "Nicolas D",
+		bootcamp: "Data",
+		project: "",
+		hobbies: ["Cyclisme", "", ""],
+		quote: "",
+		githublink: "",
+		linkedin: "https://fr.linkedin.com/in/nicolas-durant-51b41b140",
+		imgpro: "photos-pro/imgProNicolasD.png",
+		imgfun: "",
+	},
+	{
+		name: "Mathieu P",
+		bootcamp: "Dev",
+		project: " Poursuite en Alternance",
+		hobbies: ["Football", "Musique", "Cinéma "],
+		quote: "Le gras c'est la vie",
+		githublink: "htpps://https://github.com/Supremebatmat",
+		linkedin: "https://www.linkedin.com/in/",
+		imgpro: "imgProMathieuP.png",
+		imgfun: "",
+	},
+	{
+		name: "Julien I",
+		bootcamp: "Dev",
+		project:
+			"C'est encore vague mais du coup dans le dev a 90%. On ne sait pas de quoi est demain fait",
+		hobbies: ["Sport", "Animaux", "Voitures"],
+		quote: "",
+		githublink: "",
+		linkedin: "",
+		imgpro: "",
+		imgfun: "",
+	},
+	{
+		name: "Benjamin R",
+		bootcamp: "Data",
+		project: "",
+		hobbies: ["La data", "Course à pied", ""],
+		quote: "Qui veut aller loin ménage sa monture",
+
+		githublink: "",
+		linkedin: "https://www.linkedin.com/in/benjamin-regnier-56708b91/",
 		imgpro: "",
 		imgfun: "",
 	},
 ];
 
-function createCard(people) {
-	const { name, /* bootcamp, */ imgpro } = people;
+// function createCard(people, index) {
+// 	console.log(index);
+// 	const { name, /* bootcamp, */ imgpro } = people;
 
-	const card = document.createElement("cardBack");
-	card.classList.add("cardBack");
-	cardBack.append(card);
+// 	// sur ton article tu lui rajoutes une classe = `case${index+1}`
+// 	const moitieClasseur = document.querySelector(".moitieClasseur");
+// 	const case1 = document.createElement("article");
+// 	case1.classList.add(`case${index + 1}`);
+// 	moitieClasseur.append(case1);
 
-	const cardTitle = document.createElement("h6");
-	cardTitle.textContent = name;
-	cardBack.append(cardTitle);
+// 	const card = document.createElement("section");
+// 	card.classList.add("cardBack");
+// 	case1.append(card);
 
-	// const cardBoot = document.createElement("h6");
-	// cardBoot.classList.add("");
-	// cardBoot.textContent = bootcamp;
-	// cardBack.append(cardBoot);
+// 	const cardTitle = document.createElement("h6");
+// 	cardTitle.innerText = "WILDEX";
+// 	cardTitle.style.color = "red";
+// 	cardBack.append(cardTitle);
 
-	const cardImg = document.createElement("img");
-	cardImg.src = imgpro;
-	cardImg.alt = `Photo professionnelle de ${name}`;
-	cardImg.classList.add("photoPro");
-	cardBack.append(cardImg);
-}
-for (const people of campus) {
-	createCard(people);
-}
+// 	// const cardBoot = document.createElement("h6");
+// 	// cardBoot.classList.add("");
+// 	// cardBoot.textContent = bootcamp;
+// 	// cardBack.append(cardBoot);
+
+// 	const cardImg = document.createElement("img");
+// 	cardImg.src = imgpro;
+// 	cardImg.alt = `Photo professionnelle de ${name}`;
+// 	cardImg.classList.add("photoPro");
+// 	cardBack.append(cardImg);
+
+// 	const cardName = document.createElement("p");
+// 	cardName.classList.add("name");
+// 	cardName.textContent = name;
+// 	cardBack.append(cardName);
+
+// 	const cardTitleReturn = document.createElement("h6");
+// 	cardTitleReturn.classList.add("h6return");
+// 	cardTitleReturn.innerText = "WILDEX";
+// 	cardTitleReturn.style.color = "red";
+// 	cardBack.append(cardTitleReturn);
+// }
+
+// for (let i = 0; i < campus.length; i++) {
+// 	createCard(campus[i], i);
+// }
