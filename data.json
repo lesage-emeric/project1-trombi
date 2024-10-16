@@ -3,62 +3,62 @@
 		{
 			"name": "Emeric L",
 			"bootcamp": "Dev",
-			"professionnal-project": "Poursuite en alternance",
+			"project": "Poursuite en alternance",
 			"hobbies": ["Jeux vidéo", "Cinéma", "Sport"],
 			"quote": "Pour chaque fin, il y a toujours un nouveau départ",
 			"githublink": "https://github.com/lesage-emeric",
 			"linkedin": "www.linkedin.com/in/emeric-lesage-610934285",
-			"imgpro": "photos-pro/imgProEmericL.jpeg",
-			"imgfun": "photos-fun/imgFunEmericL.jpg"
+			"imgpro": "imgProEmericL.jpeg",
+			"imgfun": "imgFunEmericL.jpg"
 		},
 		{
 			"name": "Louis V",
 			"bootcamp": "Dev",
-			"professionnal-project": "Poursuite en alternance",
+			"project": "Poursuite en alternance",
 			"hobbies": ["E-commmerce", "Business", "Sport"],
 			"quote": "",
 			"githublink": "https://github.com/LouisNoizar",
 			"linkedin": "",
-			"imgpro": "",
+			"imgpro": "imgProLouisV.png",
 			"imgfun": ""
 		},
 		{
 			"name": "Claire M",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Biologie", "Jeux de société", ""],
 			"quote": "",
 			"githublink": "",
 			"linkedin": "https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm",
-			"imgpro": "",
+			"imgpro": "imgProClaireM.png",
 			"imgfun": ""
 		},
 		{
 			"name": "Nicolas D",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Cyclisme", "", ""],
 			"quote": "",
 			"githublink": "",
 			"linkedin": "https://fr.linkedin.com/in/nicolas-durant-51b41b140",
-			"imgpro": "",
+			"imgpro": "imgProNicolasD.png",
 			"imgfun": ""
 		},
 		{
 			"name": "Mathieu P",
 			"bootcamp": "Dev",
-			"professionnal-project": " Poursuite en Alternance",
+			"project": " Poursuite en Alternance",
 			"hobbies": ["Football", "Musique", "Cinéma "],
 			"quote": "Le gras c'est la vie",
 			"githublink": "htpps://https://github.com/Supremebatmat",
 			"linkedin": "https://www.linkedin.com/in/",
-			"imgpro": "",
+			"imgpro": "imgProMathieuP.png",
 			"imgfun": ""
 		},
 		{
 			"name": "Julien I",
 			"bootcamp": "Dev",
-			"professionnal-project": "C'est encore vague mais du coup dans le dev a 90%. On ne sait pas de quoi est demain fait",
+			"project": "C'est encore vague mais du coup dans le dev a 90%. On ne sait pas de quoi est demain fait",
 			"hobbies": ["Sport", "Animaux", "Voitures"],
 			"quote": "",
 			"githublink": "",
@@ -69,7 +69,7 @@
 		{
 			"name": "Benjamin R",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["La data", "Course à pied", ""],
 			"quote": "Qui veut aller loin ménage sa monture",
 
@@ -81,7 +81,7 @@
 		{
 			"name": "Alicia M",
 			"bootcamp": "Développeur full stack",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Cinéma", "Écriture", "Musique"],
 			"quote": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light - Albus Dumbledore, 
             Harry Potter et le Prisonnier d'Azkaban",
@@ -93,7 +93,7 @@
 		{
 			"name": "Halim M",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Escalade", "Films", "Voyages"],
 			"quote": "On est mieux ici qu'en prison",
 			"githublink": "",
@@ -105,7 +105,7 @@
 		{
 			"name": "Ludovic S",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Moto", "Informatique", "Théâtre"],
 			"quote": "Il faut se méfier de l'eau qui dort",
 			"githublink": "",
@@ -116,7 +116,7 @@
 		{
 			"name": "Timothey M",
 			"bootcamp": "Dev",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Jeux vidéos", "Musique"],
 			"quote": "",
 			"githublink": "https://github.com/MTimot",
@@ -128,7 +128,7 @@
 		{
 			"name": "Antoine F",
 			"bootcamp": "Dev",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Basket", "Judo", "Musique", "Cinéma"],
 			"quote": "",
 			"githublink": "",
@@ -140,7 +140,7 @@
 		{
 			"name": "Thomas L",
 			"bootcamp": "Dev",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Jeux vidéo", "Sport", "Animés"],
 			"quote": "",
 			"githublink": "",
@@ -151,7 +151,7 @@
 		{
 			"name": "Reem B",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Manga", "Animés"],
 			"quote": "When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.”― Dr. Hiriluk One Piece",
 			"githublink": "",
@@ -162,7 +162,7 @@
 		{
 			"name": "Elena D",
 			"bootcamp": "Data",
-			"professionnal-project": "J'aimerai travailler dans la DATA dans le secteur du jeux video ou dans l'internationale",
+			"project": "J'aimerai travailler dans la DATA dans le secteur du jeux video ou dans l'internationale",
 			"hobbies": ["Jeux vidéo", "Animés", "Manga", "Voyages"],
 			"quote": "Aie confiance en toi-même, et tu sauras vivre.",
 			"githublink": "",
@@ -173,7 +173,7 @@
 		{
 			"name": "Ludovic M",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Handball"],
 			"quote": "Changeons quelque chose pour obtenir un résultat différent",
 			"githublink": "",
@@ -184,7 +184,7 @@
 			{
 			"name": "Arnaud G",
 			"bootcamp": "Dev",
-			"professionnal-project": "Développeur web",
+			"project": "Développeur web",
 			"hobbies": ["Jeux vidéo", "Randonnés", "Cinéma", "Motos"],
 			"quote": "Fais le ou ne le fais pas, il n'y a pas d'essai",
 			"githublink": "https://github.com/Arnaud6216",
@@ -195,7 +195,7 @@
 			{
 			"name": "Tiphaine S",
 			"bootcamp": "",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["Randonnées", "Patisserie", "Roller"],
 			"quote": "",
 			"githublink": "",
@@ -206,7 +206,7 @@
 			{
 			"name": "Antonin D",
 			"bootcamp": "Data",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["", "", "", ""],
 			"quote": "Ceux qui ont une montre n'ont pas le temps",
 			"githublink": "",
@@ -215,10 +215,10 @@
 			"imgfun": ""
 		}
 			{
-			"name": "",
-			"bootcamp": "",
-			"professionnal-project": "",
-			"hobbies": ["", "", "", ""],
+			"name": "Soufiane R",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["Sport", "Football", "", ""],
 			"quote": "",
 			"githublink": "",
 			"linkedin": "",
@@ -226,11 +226,33 @@
 			"imgfun": ""
 		}
 			{
-			"name": "",
-			"bootcamp": "",
-			"professionnal-project": "",
-			"hobbies": ["", "", "", ""],
+			"name": "williams V",
+			"bootcamp": "Data",
+			"project": "Travailler comme chef de projet dans le domaine de la santé",
+			"hobbies": ["Guitare", "Randonnées", "Informatique", "Jeux vidéo"],
 			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"name": "Nicolas V",
+			"bootcamp": "Data",
+			"project": "Retourner dans l'agroalimentaire avec un nouvel axe data",
+			"hobbies": ["Futsal", "Voyages", "Bières"],
+			"quote": "Ca va aller",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		}
+				{
+			"name": "Fantine R",
+			"bootcamp": "Formatrice Dev",
+			"project": "Aller au bout de cette session",
+			"hobbies": ["Social", "Spiritualité", "Le Keno"],
+			"quote": "Aime ton prochain comme toi même",
 			"githublink": "",
 			"linkedin": "",
 			"imgpro": "",
@@ -239,29 +261,7 @@
 				{
 			"name": "",
 			"bootcamp": "",
-			"professionnal-project": "",
-			"hobbies": ["", "", "", ""],
-			"quote": "",
-			"githublink": "",
-			"linkedin": "",
-			"imgpro": "",
-			"imgfun": ""
-		}
-				{
-			"name": "",
-			"bootcamp": "",
-			"professionnal-project": "",
-			"hobbies": ["", "", "", ""],
-			"quote": "",
-			"githublink": "",
-			"linkedin": "",
-			"imgpro": "",
-			"imgfun": ""
-		}
-				{
-			"name": "",
-			"bootcamp": "",
-			"professionnal-project": "",
+			"project": "",
 			"hobbies": ["", "", "", ""],
 			"quote": "",
 			"githublink": "",

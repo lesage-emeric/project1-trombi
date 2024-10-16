@@ -1,13 +1,10 @@
 :root {
-	--backgroundColor: #ffcc01;
-	--bluePokemon: #385ca5;
-	--devColor: #a206b7;
-	--dataColor: #2667ef;
   --backgroundColor: #ffcc01;
   --bluePokemon: #385ca5;
   --devColor: #d6444c;
   --dataColor: #2667ef;
 }
+
 * {
 	box-sizing: border-box;
 }
@@ -18,10 +15,12 @@ body {
 	background-color: var(--backgroundColor);
 	font-family: "Hind Siliguri", sans-serif;
 }
+
 .centered {
 	margin: auto;
 	width: max-content;
 }
+
 .flipbook {
 	margin: 3em auto;
 	width: 50vw;
@@ -64,10 +63,12 @@ body {
 		}
 	}
 }
+
 .disabled {
 	user-select: none;
 	opacity: 0.6;
 }
+
 .page {
 	padding: 1em;
 	&.front {
@@ -77,6 +78,7 @@ body {
 		border-radius: 1em 0em 0em 1em;
 	}
 }
+
 .leaf {
 	background-color: rgb(56, 56, 56) !important;
 }
@@ -89,9 +91,11 @@ body {
 		height: 1em;
 		border-bottom: 1px dashed #000;
 	}
+
 	.text {
 		flex: 0 0 auto;
 	}
+
 	body[onload] {
 		/*Cheesing the preview*/
 		transform: scale(1.5);
@@ -110,6 +114,7 @@ body {
 		}
 	}
 }
+
 .cd__intro {
 	background-color: rgb(56, 56, 56);
 }
@@ -170,15 +175,6 @@ nav {
 	display: flex;
 	justify-content: space-between;
 }
-
-#search {
-	padding: 5px;
-	border-radius: 15px;
-	width: 20rem;
-	border: 2px solid black;
-	font-size: 15px;
-}
-
 
 #navSentence {
 	font-size: 1.5rem;
