@@ -262,18 +262,23 @@ STYLE CARD FRONT
 
 .cardFront {
 	background-color: var(--devColor);
+	position: absolute;
 	border: 2px solid black;
 	border-radius: 20px;
-	padding: 20px;
-	height: 38rem;
-	width: 30rem;
+	padding: 1rem;
+	height: 80vh;
+	width: 30%;
 	color: var(--backgroundColor);
-	/* display: none; */
-}
-
-.articleCardFront {
+	z-index: 1;
 	display: flex;
 	flex-flow: column;
+	align-items: center;
+	left: 35%;
+	display: none;
+}
+.imgContainer {
+	width: 10rem;
+	height: 10rem;
 }
 
 .logo {
@@ -295,6 +300,7 @@ STYLE CARD FRONT
 .titleCardFront {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 }
 
 .titreCardFront,
@@ -307,9 +313,8 @@ STYLE CARD FRONT
 	justify-content: center;
 }
 .pictureCardFront {
-	height: 15rem;
-	width: 12rem;
-	margin-left: 130px;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .quoteCardFront {
@@ -339,15 +344,6 @@ STYLE CLASSEUR
 /* Taille et couleur du fond  du classeur */
 .moitieClasseur {
 	background-color: rgb(56, 56, 56);
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	align-items: center;
-	justify-content: center;
-	border-style: dashed double none; 
-	border-style: 1px black;
-	background-color: rgb(56, 56, 56);
 	border-radius: 18px;
 	height: 100%;
 	display: grid;
@@ -375,26 +371,22 @@ STYLE CLASSEUR
 	width: 75%;
 }
 
+.classeur {
+	display: flex;
+	background-color: blanchedalmond;
+	border: 5px double lightslategray;
+	border-bottom-left-radius: 3%;
+	border-bottom-right-radius: 3%;
+	border-top-left-radius: 3%;
+	border-top-right-radius: 3%;
+	width: 80vw;
+	height: 120vh;
+	margin: auto;
+}
+
 .classeurGauche {
-	border-radius: 3% 0px 0px 3%;
-	box-shadow: 2px 0px 1px 1px black; 
+	border-radius: 3% 3% 3% 3%;
 }
-
-/* .classeurGauche {
-	border-radius: 3% 0px 0px 3%;
-	box-shadow: 2px 0px 10px 1px black;
-
-
-.classeurDroite {
-	background-color: rgb(71, 71, 71);
-	border-radius: 0px 3% 3% 0px;
-	box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
-}
-	background-color: rgb(71, 71, 71);
-	border-radius: 0px 3% 3% 0px;
-	box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
-} */
-
 footer {
 	/* margin-top: 10%; */
 	height: 50px;
@@ -412,4 +404,8 @@ footer {
 	height: 25px;
 	width: 25px;
 	margin-top: 8px;
+}
+
+#pokeballNavMobile {
+	display: none;
 }

@@ -1,137 +1,147 @@
 @media screen and (max-width: 900px) {
+	nav {
+		height: 2rem;
+	}
 
-nav {
-  height: 2rem;
-}
+	#logoWildex {
+		display: block;
+		margin: auto;
+		height: 7rem;
+	}
 
+	#navSentence {
+		font-size: 1.1rem;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
 
-#logoWildex {
-  display: block;
-  margin: auto;
-  height: 7rem;
-}
+	#pokeballNavMobile {
+		display: inline;
+		visibility: visible;
+		height: 7rem;
+		position: absolute;
+		top: 156px;
+		left: 150px;
+	}
 
-#navSentence {
-  font-size: 1.1rem;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
+	hr {
+		visibility: visible;
+		height: 5px;
+		background-color: black;
+		position: relative;
+	}
 
-#pokeballNavMobile {
-  visibility: visible;
-  height: 7rem;
-  position: absolute;
-  top: 156px;
-  left: 150px;
-}
+	.titre {
+		all: unset;
+	}
 
-hr {
-  visibility: visible;
-  height: 5px;
-  background-color: black;
-  position: relative;
-}
+	.filter {
+		display: none;
+	}
 
-.titre {
-  all: unset;
-}
-
-.filter {
-  display: none;
-}
-
-/* STYLE MENU BURGER
+	/* STYLE MENU BURGER
 STYLE MENU BURGER
 STYLE MENU BURGER
 STYLE MENU BURGER */
 
-span {
-  display: block;
-  width: 2.2rem;
-  height: 0.4rem;
-  background-color: black;
-  margin: 5px 0;
-  cursor: pointer; 
-}
-  
-.dropdown {
-  visibility: visible;
-  position: relative;
-  display: inline-block;
-  position: absolute; 
-  top: 0;
-  left: 40px;
-  margin: 5px;
-}
-  
-.dropdown-content {
-  display: none;
-  /* position: absolute; */
-  width: 180px;
-  height: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(1.5, 1.5, 1.5, 1.5);
-  background-color: var(background-color);
-  line-height: 30px;
-  border: 2px solid #385ca5;
-  border-radius: 15px;
-  padding: 10px;
-}
-  
-.dropdown:hover,
-.dropbtn {
-  background-color: var(--backgroundColor);
-}
+	span {
+		display: block;
+		width: 2.2rem;
+		height: 0.4rem;
+		background-color: black;
+		margin: 5px 0;
+		cursor: pointer;
+	}
 
-label, input:hover {
-  cursor: pointer;
-}
+	.dropdown {
+		visibility: visible;
+		position: relative;
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 40px;
+		margin: 5px;
+	}
 
-.dropdown:hover 
-.dropdown-content {
-  display: block;
-}
+	.dropdown-content {
+		display: none;
+		/* position: absolute; */
+		width: 180px;
+		height: 150px;
+		box-shadow: 0px 8px 16px 0px rgba(1.5, 1.5, 1.5, 1.5);
+		background-color: var(background-color);
+		line-height: 30px;
+		border: 2px solid #385ca5;
+		border-radius: 15px;
+		padding: 10px;
+	}
 
-/* STYLE CLASSEUR
+	.dropdown:hover,
+	.dropbtn {
+		background-color: var(--backgroundColor);
+	}
+
+	label,
+	input:hover {
+		cursor: pointer;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	/* STYLE CLASSEUR
 STYLE CLASSEUR
 STYLE CLASSEUR
 STYLE CLASSEUR */
 
-.flipbook {
-  width: 100%;
-  display: none;
-}
+	.flipbook {
+		width: 100%;
+		display: none;
+	}
 
-.moitieClasseur {
-  background-color: #ffcc01;
-}
+	.moitieClasseur {
+		background-color: #ffcc01;
+	}
 
-.case1 {
-  height: 30vh;
-}
+	.case1 {
+		height: 30vh;
+	}
 
-.photoPro {
-  flex-direction: column;
-  align-items: center;
-}
+	.photoPro {
+		flex-direction: column;
+		align-items: center;
+	}
 
-.classeur {
-  all: unset;
-}
+	.classeur {
+		all: unset;
+	}
 
-.classeurGauche {
-  flex-direction: column;
-  box-shadow: none;
-}
+	.classeurGauche {
+		flex-direction: column;
+		box-shadow: none;
+	}
 
-.page { 
-  padding: 0.6rem;
-  border-bottom-left-radius: 20%;
-}
+	.page {
+		padding: 0.6rem;
+		border-bottom-left-radius: 20%;
+	}
 
-
-
-  /* footer {
+	/* footer {
     position: relative;
   } */
+
+	.cardFront {
+		left: 50px;
+		background-color: red;
+	}
+
+	.cardFront {
+		width: 75%;
+	}
+	.imgContainer {
+		height: 8rem;
+		width: 8rem;
+	}
 }
