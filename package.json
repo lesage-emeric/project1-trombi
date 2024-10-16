@@ -1,0 +1,12 @@
+{
+	"name": "project1-trombi",
+	"version": "1.0.0",
+	"description": "https://www.figma.com/design/mIqVBIaipcsXkRJw9SB3aM/Projet-commun?node-id=0-1&t=OiqlDqRBHdUrOTwp-1",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
