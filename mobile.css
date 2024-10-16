@@ -1,8 +1,8 @@
 @media screen and (max-width: 900px) {
-#logoWildex {
-  margin-left: 120px;
-  height: 7rem;
-}
+  #logoWildex {
+    margin-left: 120px;
+    height: 7rem;
+  }
 
   #navSentence {
     font-size: 1.1rem;
@@ -15,7 +15,6 @@
   .titre {
     all: unset;
   }
-
 
   #search {
     display: flex;
@@ -33,84 +32,94 @@
     box-shadow: none;
   }
 
-.filter {
-  display: none;
-}
+  .filter {
+    display: none;
+  }
 
-/* STYLE MENU BURGER
+  /* STYLE MENU BURGER
 STYLE MENU BURGER
 STYLE MENU BURGER
 STYLE MENU BURGER */
 
-span {
-  display: block;
-  width: 2.2rem;
-  height: 0.4rem;
-  background-color: black;
-  margin: 5px 0;
-  cursor: pointer; 
-}
-  
-.dropdown {
-  position: relative;
-  display: inline-block;
-  position: absolute; 
-  top: 0;
-  margin: 5px;
-}
-  
-.dropdown-content {
-  display: none;
-  /* position: absolute; */
-  width: 180px;
-  height: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0.5, 0.5, 0.5, 0.5);
-  background-color: var(background-color);
-  line-height: 30px;
-  border: 2px solid #385ca5;
-  border-radius: 15px;
-  padding: 10px;
-}
-  
-.dropdown:hover,
-.dropbtn {
-  background-color: var(--backgroundColor);
-}
+  span {
+    display: block;
+    width: 2.2rem;
+    height: 0.4rem;
+    background-color: black;
+    margin: 5px 0;
+    cursor: pointer;
+  }
 
-label, input:hover {
-  cursor: pointer;
-}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    margin: 5px;
+  }
 
-.dropdown:hover 
-.dropdown-content {
-  display: block;
-}
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    width: 180px;
+    height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0.5, 0.5, 0.5, 0.5);
+    background-color: var(background-color);
+    line-height: 30px;
+    border: 2px solid #385ca5;
+    border-radius: 15px;
+    padding: 10px;
+  }
 
-hr {
-  visibility: visible;
-  height: 5px;
-  background-color: black;
-  position: relative;
-}
+  .dropdown:hover,
+  .dropbtn {
+    background-color: var(--backgroundColor);
+  }
 
-/* header {
+  label,
+  input:hover {
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  hr {
+    visibility: visible;
+    height: 5px;
+    background-color: black;
+    position: relative;
+  }
+
+  /* header {
   position: relative;
 } */
 
+  #pokeballNavMobile {
+    visibility: visible;
+    height: 7rem;
+    position: absolute;
+    top: 164px;
+    left: 160px;
+  }
 
-#pokeballNavMobile {
-  visibility: visible;
-  height: 7rem;
-  position: absolute;
-  top: 164px;
-  left: 160px;
-  
-}
-
-
-  .moitieClasseur {
+  /* .moitieClasseur {
     background-color: #ffcc01;
   }
+
+  .classeur {
+    all: unset;
+  }
+  .classeurDroite {
+    display: none;
+  }
+  .classeurGauche {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+  }
+
   .case1 {
     height: 100vh;
   }
@@ -118,9 +127,9 @@ hr {
   .photoPro {
     flex-direction: column;
     align-items: center;
-  }
-
-  /* footer {
-    position: relative;
   } */
+
+  footer {
+    position: relative;
+  }
 }
