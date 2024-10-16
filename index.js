@@ -99,22 +99,13 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 ///////////////////////////////////
 ///////test event on click/////////
 ///////////////////////////////////
-const imgFlip = document.getElementsByClassName("cardBack");
-imgFlip.addEventListener("click", () => {
-	console.log("TEST !");
-	alert("Check");
+
+const rotateCard = document.querySelectorAll(".case");
+rotateCard.forEach((rotate) => {
+	rotate.addEventListener("click", () => {
+		alert("coucou");
+	});
 });
-
-imgFlip.onclick = function () {
-	alert("TEST");
-};
-
-const testClic = document.getElementsByTagName("img");
-testClic.addEventListener("click", function () {
-	console.log("TEST");
-	alert("TEST");
-});
-
 /////////////////////////////////////
 //test add every card from array/////
 /////////////////////////////////////
