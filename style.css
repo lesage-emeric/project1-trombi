@@ -3,6 +3,10 @@
 	--bluePokemon: #385ca5;
 	--devColor: #a206b7;
 	--dataColor: #2667ef;
+  --backgroundColor: #ffcc01;
+  --bluePokemon: #385ca5;
+  --devColor: #d6444c;
+  --dataColor: #2667ef;
 }
 * {
 	box-sizing: border-box;
@@ -125,13 +129,11 @@ STYLE DE LA NAV
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-.photoProEmericL {
-	width: 75%;
+		width: 75%;
 	border-radius: 200%;
 	margin: auto;
 }
+
 
 .name {
 	margin: 10px;
@@ -177,11 +179,24 @@ nav {
 	font-size: 15px;
 }
 
+
 #navSentence {
 	font-size: 1.5rem;
 	font-weight: 700;
 	color: #365fac;
 }
+
+/* NAV MOBILE 
+NAV MOBILE 
+NAV MOBILE 
+NAV MOBILE  */
+
+.dropdown,
+#pokeballNavMobile,
+hr { 
+  visibility: hidden;
+}
+
 
 /* STYLE CARD BACK 
 STYLE CARD BACK 
@@ -190,6 +205,11 @@ STYLE CARD BACK
 */
 
 .cardBack {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	background-color: var(--bluePokemon);
+	border-radius: 30px;
 	display: flex;
 	flex-wrap: wrap;
 	height: 100%;
@@ -325,6 +345,16 @@ STYLE CLASSEUR
 .moitieClasseur {
 	background-color: rgb(56, 56, 56);
 	border-radius: 18px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	border-style: dashed double none;
+	border: 2px black;
+	background-color: rgb(56, 56, 56);
+	border-radius: 18px;
 	height: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -337,6 +367,12 @@ STYLE CLASSEUR
 
 /* chaque case individuelle du classeur */
 .case {
+	border-width: 0px 2px 2px 2px;
+	border-color: white;
+	border-style: dashed;
+	margin: auto;
+	height: 70%;
+	width: 75%;
 	border-width: 0px 2px 2px 2px;
 	border-color: white;
 	border-style: dashed;
@@ -358,12 +394,19 @@ STYLE CLASSEUR
 	margin: auto;
 }
 
+.classeurGauche {
+	border-radius: 3% 0px 0px 3%;
+	box-shadow: 2px 0px 10px 1px black;
 /* .classeurGauche {
 	border-radius: 3% 0px 0px 3%;
 	box-shadow: 2px 0px 10px 1px black;
 }
 
 .classeurDroite {
+	background-color: rgb(71, 71, 71);
+	border-radius: 0px 3% 3% 0px;
+	box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
+}
 	background-color: rgb(71, 71, 71);
 	border-radius: 0px 3% 3% 0px;
 	box-shadow: 10px 0px 20px 5px rgb(109, 107, 107);
