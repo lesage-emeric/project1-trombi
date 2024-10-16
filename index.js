@@ -134,6 +134,144 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 // 	},
 // ];
 
+// 	console.log(index);
+//const { name, /* bootcamp, */ imgpro } = people;
+// cardBack.append(card);
+
+// 	// sur ton article tu lui rajoutes une classe = `case${index+1}`
+// 	const moitieClasseur = document.querySelector(".moitieClasseur");
+// 	const case1 = document.createElement("article");
+// 	case1.classList.add(`case${index + 1}`);
+// 	moitieClasseur.append(case1);
+
+// 	const card = document.createElement("section");
+// 	card.classList.add("cardBack");
+// 	case1.append(card);
+
+// 	const cardTitle = document.createElement("h6");
+// 	cardTitle.innerText = "WILDEX";
+// 	cardTitle.style.color = "red";
+// 	cardBack.append(cardTitle);
+
+// 	// const cardBoot = document.createElement("h6");
+// 	// cardBoot.classList.add("");
+// 	// cardBoot.textContent = bootcamp;
+// 	// cardBack.append(cardBoot);
+
+// for (const people of campus) {
+// 	createCard(people);
+// }
+
+// 	const cardImg = document.createElement("img");
+// 	cardImg.src = imgpro;
+// 	cardImg.alt = `Photo professionnelle de ${name}`;
+// 	cardImg.classList.add("photoPro");
+// 	cardBack.append(cardImg);
+
+// 	const cardName = document.createElement("p");
+// 	cardName.classList.add("name");
+// 	cardName.textContent = name;
+// 	cardBack.append(cardName);
+
+// 	const cardTitleReturn = document.createElement("h6");
+// 	cardTitleReturn.classList.add("h6return");
+// 	cardTitleReturn.innerText = "WILDEX";
+// 	cardTitleReturn.style.color = "red";
+// 	cardBack.append(cardTitleReturn);
+// }
+
+// for (let i = 0; i < campus.length; i++) {
+// 	createCard(campus[i], i);
+// }
+
+/////////////////////////////////////
+//test add every card from array/////
+/////////////////////////////////////
+// const allCampus = require("./data.json");
+
+// const campus = [
+// 	{
+// 		name: "Emeric L",
+// 		bootcamp: "Dev",
+// 		project: "Poursuite en alternance",
+// 		hobbies: ["Jeux vidéo", "Cinéma", "Sport"],
+// 		quote: "Pour chaque fin, il y a toujours un nouveau départ",
+// 		githublink: "https://github.com/lesage-emeric",
+// 		linkedin: "www.linkedin.com/in/emeric-lesage-610934285",
+// 		imgpro: "photos-pro/imgProEmericL.jpeg",
+// 		imgfun: "photos-fun/imgFunEmericL.jpg",
+// 	},
+// 	{
+// 		name: "Louis V",
+// 		bootcamp: "Dev",
+// 		project: "Poursuite en alternance",
+// 		hobbies: ["E-commmerce", "Business", "Sport"],
+// 		quote: "",
+// 		githublink: "https://github.com/LouisNoizar",
+// 		linkedin: "",
+// 		imgpro: "photos-pro/imgProLouisV.png",
+// 		imgfun: "",
+// 	},
+// 	{
+// 		name: "Claire M",
+// 		bootcamp: "Data",
+// 		project: "",
+// 		hobbies: ["Biologie", "Jeux de société", ""],
+// 		quote: "",
+// 		githublink: "",
+// 		linkedin:
+// 			"https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm",
+// 		imgpro: "photos-pro/imgProClaireM.png",
+// 		imgfun: "",
+// 	},
+// 	{
+// 		name: "Nicolas D",
+// 		bootcamp: "Data",
+// 		project: "",
+// 		hobbies: ["Cyclisme", "", ""],
+// 		quote: "",
+// 		githublink: "",
+// 		linkedin: "https://fr.linkedin.com/in/nicolas-durant-51b41b140",
+// 		imgpro: "photos-pro/imgProNicolasD.png",
+// 		imgfun: "",
+// 	},
+// 	{
+// 		name: "Mathieu P",
+// 		bootcamp: "Dev",
+// 		project: " Poursuite en Alternance",
+// 		hobbies: ["Football", "Musique", "Cinéma "],
+// 		quote: "Le gras c'est la vie",
+// 		githublink: "htpps://https://github.com/Supremebatmat",
+// 		linkedin: "https://www.linkedin.com/in/",
+// 		imgpro: "imgProMathieuP.png",
+// 		imgfun: "",
+// 	},
+// 	{
+// 		name: "Julien I",
+// 		bootcamp: "Dev",
+// 		project:
+// 			"C'est encore vague mais du coup dans le dev a 90%. On ne sait pas de quoi est demain fait",
+// 		hobbies: ["Sport", "Animaux", "Voitures"],
+// 		quote: "",
+// 		githublink: "",
+// 		linkedin: "",
+// 		imgpro: "",
+// 		imgfun: "",
+// 	},
+// 	{
+// 		name: "Benjamin R",
+// 		bootcamp: "Data",
+// 		project: "",
+// 		hobbies: ["La data", "Course à pied", ""],
+// 		quote: "Qui veut aller loin ménage sa monture",
+
+// 		githublink: "",
+// 		linkedin: "https://www.linkedin.com/in/benjamin-regnier-56708b91/",
+// 		imgpro: "",
+// 		imgfun: "",
+// 	},
+// ];
+
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
@@ -165,7 +303,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "https://github.com/LouisNoizar",
 			linkedin: "",
-			imgpro: "",
+			imgpro: "photos-pro/imgProLouisV.png",
 			imgfun: "",
 		},
 
@@ -178,7 +316,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			githublink: "",
 			linkedin:
 				"https://www.linkedin.com/in/clairemercier/ et https://github.com/SeaJayEm",
-			imgpro: "",
+			imgpro: "photos-pro/imgProClaireM.png",
 			imgfun: "",
 		},
 		{
@@ -189,7 +327,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "",
 			linkedin: "https://fr.linkedin.com/in/nicolas-durant-51b41b140",
-			imgpro: "",
+			imgpro: "photos-pro/imgProNicolasD.png",
 			imgfun: "",
 		},
 		{
@@ -200,7 +338,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "Le gras c'est la vie",
 			githublink: "htpps://https://github.com/Supremebatmat",
 			linkedin: "https://www.linkedin.com/in/",
-			imgpro: "",
+			imgpro: "photos-pro/imgProMathieuP.png",
 			imgfun: "",
 		},
 		{
@@ -212,7 +350,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "",
 			linkedin: "",
-			imgpro: "",
+			imgpro: "photos-pro/imgProJulienI.png",
 			imgfun: "",
 		},
 		{
@@ -223,16 +361,16 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "Qui veut aller loin ménage sa monture",
 			githublink: "",
 			linkedin: "https://www.linkedin.com/in/benjamin-regnier-56708b91/",
-			imgpro: "",
+			imgpro: "photos-pro/imgProBenjaminR.png",
 			imgfun: "",
 		},
 		{
 			name: "Alicia M",
-			bootcamp: "Développeur full stack",
+			bootcamp: "Dev",
 			professionnalProject: "",
 			hobbies: ["Cinéma", "Écriture", "Musique"],
 			quote:
-				"Happiness can be found, even in the darkest of times, if one only remembers to turn on the light - Albus Dumbledore, Harry Potter et le Prisonnier d'Azkaban",
+				"Happiness can be found, even in the darkest of times, if one only remembers to turn on the light",
 			githublink: "https://github.com/itisalicia",
 			linkedin: "https://www.linkedin.com/in/alicia-magro-3b658a292/",
 			imgpro: "photos-pro/imgProAliciaM.jpeg",
@@ -246,7 +384,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "On est mieux ici qu'en prison",
 			githublink: "",
 			linkedin: "",
-			imgpro: "",
+			imgpro: "photos-pro/imgProHalimM.png",
 			imgfun: "photos-fun/imgFunHalimM.png",
 		},
 
@@ -258,7 +396,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "Il faut se méfier de l'eau qui dort",
 			githublink: "",
 			linkedin: "https://www.linkedin.com/in/ludovic-simunek/",
-			imgpro: "",
+			imgpro: "photos-pro/imgProLucodivS.png",
 			imgfun: "",
 		},
 		{
@@ -269,7 +407,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "https://github.com/MTimot",
 			linkedin: "https://www.linkedin.com/in/timothey-mesmacque-924b56331/",
-			imgpro: "",
+			imgpro: "photos-pro/imgProTimotheyM.png",
 			imgfun: "",
 		},
 
@@ -282,7 +420,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			githublink: "",
 			linkedin:
 				"https://github.com/Foub404 / https://www.linkedin.com/in/antoine-foubert-152ba413b/",
-			imgpro: "",
+			imgpro: "photos-pro/imgProAntoineF.png",
 			imgfun: "",
 		},
 
@@ -294,9 +432,10 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "",
 			linkedin: "",
-			imgpro: "",
+			imgpro: "photos-pro/imgProThomasL.png",
 			imgfun: "photos-fun/imgFunThomasL.jpg",
 		},
+
 		{
 			name: "Reem B",
 			bootcamp: "Data",
@@ -306,9 +445,10 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 				"When do you think people die? When they are shot through the heart by the bullet of a pistol? No. When they are ravaged by an incurable disease? No. When they drink a soup made from a poisonous mushroom!? No! It’s when… they are forgotten.”― Dr. Hiriluk One Piece",
 			githublink: "",
 			linkedin: "https://www.linkedin.com/in/r-bouqueau/",
-			imgpro: "",
+			imgpro: "photos-pro/imgProReemB.png",
 			imgfun: "",
 		},
+
 		{
 			name: "Elena D",
 			bootcamp: "Data",
@@ -318,9 +458,10 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "Aie confiance en toi-même, et tu sauras vivre.",
 			githublink: "",
 			linkedin: "www.linkedin.com/in/elena-degallaix-533324269",
-			imgpro: "",
+			imgpro: "photos-pro/imgProElenaD.png",
 			imgfun: "photos-fun/imgFunElenaD.jpeg",
 		},
+
 		{
 			name: "Ludovic M",
 			bootcamp: "Data",
@@ -330,30 +471,30 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			githublink: "",
 			linkedin:
 				"https://www.linkedin.com/in/ludovic-maillard-7179412a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-			imgpro: "",
+			imgpro: "photos-pro/imgProLudovicM.png",
 			imgfun: "photos-fun/imgFunLudovicM.jpg",
 		},
 		{
 			name: "Arnaud G",
 			bootcamp: "Dev",
-			"professionnal-project": "Développeur web",
+			professionnalProject: "Développeur web",
 			hobbies: ["Jeux vidéo", "Randonnés", "Cinéma", "Motos"],
 			quote: "Fais le ou ne le fais pas, il n'y a pas d'essai",
 			githublink: "https://github.com/Arnaud6216",
 			linkedin: "https://www.linkedin.com/in/guevaer-arnaud-11434a2a9/",
-			imgpro: "",
+			imgpro: "photos-pro/imgProArnaudG.png",
 			imgfun: "photos-fun/imgFunArnaudG.jpg",
 		},
 
 		{
 			name: "Tiphaine S",
-			bootcamp: "",
+			bootcamp: "Crew",
 			professionnalProject: "",
 			hobbies: ["Randonnées", "Patisserie", "Roller"],
 			quote: "",
 			githublink: "",
 			linkedin: "linkedin.com/in/tiphaine-subtil",
-			imgpro: "",
+			imgpro: "photos-pro/imgProTiphaineS.png",
 			imgfun: "",
 		},
 		{
@@ -364,9 +505,194 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "Ceux qui ont une montre n'ont pas le temps",
 			githublink: "",
 			linkedin: "",
-			imgpro: "",
+			imgpro: "photos-pro/imgProAntonin D.png",
 			imgfun: "",
 		},
+
+		{
+			name: "Soufiane R",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["Sport", "Football", "", ""],
+			quote: "",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProSoufianeR.png",
+			imgfun: "",
+		},
+
+		{
+			name: "williams V",
+			bootcamp: "Data",
+			professionnalProject:
+				"Travailler comme chef de projet dans le domaine de la santé",
+			hobbies: ["Guitare", "Randonnées", "Informatique", "Jeux vidéo"],
+			quote: "",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProWilliamsV.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Nicolas V",
+			bootcamp: "Data",
+			professionnalProject:
+				"Retourner dans l'agroalimentaire avec un nouvel axe data",
+			hobbies: ["Futsal", "Voyages", "Bières"],
+			quote: "Ca va aller",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProNicolasV.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Fantine R",
+			bootcamp: "FormatriceDev",
+			professionnalProject: "Aller au bout de cette session",
+			hobbies: ["Social", "Spiritualité", "Le Keno"],
+			quote: "Aime ton prochain comme toi même",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProFantineR.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Riad S",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["Voyages", "Natation", "", ""],
+			quote:
+				"I do not want to you to save me, I want you to stand by me whiled I save myself.",
+			githublink: "",
+			linkedin: "https://www.linkedin.com/feed/",
+			imgpro: "photos-pro/imgProRiadS.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Thomas P",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["", "", "", ""],
+			quote: "Oublies que tu n'as aucune chance, vas y fonces !",
+			githublink: "",
+			linkedin: "linkedin.com/in/thomas-porcher-16babaa4",
+			imgpro: "photos-pro/imgProThomasP.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Leslie B",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["Clarinette", "", "", ""],
+			quote: "",
+			githublink: "",
+			linkedin: "https://www.linkedin.com/feed/",
+			imgpro: "photos-pro/imgProLeslieB.png",
+			imgfun: "photos-fun/imgFunLeslieB.png",
+		},
+
+		{
+			name: "David B",
+			bootcamp: "Data",
+			professionnalProject: "Alternance en Data IA",
+			hobbies: ["Sport", "", "", ""],
+			quote: "",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProDavidB.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Zséno F",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["", "", "", ""],
+			quote: "Je ne perds jamais. Soit je gagne, soit j'apprends",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProZsénoF.png",
+			imgfun: "",
+		},
+		{
+			name: "Jean-Alain D",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["Jeux vidéo", "Voyages", "Sport automobile", ""],
+			quote: "",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProJeanAlainD.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Jezabel M",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["", "", "", ""],
+			quote: "Jamais un échec, toujours une leçon",
+			githublink: "",
+			linkedin:
+				"https://www.linkedin.com/in/jezabel-montigny-428145112?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+			imgpro: "photos-pro/imgProJezabelM.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Daniel D",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["Musique", "Cinéma", "", ""],
+			quote:
+				"Qui pose 1 question à l'air bête 5 minutes, qui n'en pose pas à l'air bête toute sa vie",
+			githublink: "",
+			linkedin: "",
+			imgpro: "photos-pro/imgProDanielD.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Sopanha S",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["Musique", "Films", "", ""],
+			quote: "",
+			githublink: "",
+			linkedin: "https://www.linkedin.com/in/sopanha-sao-7648a6a3/",
+			imgpro: "photos-pro/imgProSopanhaS.png",
+			imgfun: "",
+		},
+
+		{
+			name: "Laetita P",
+			bootcamp: "Data",
+			professionnalProject: "",
+			hobbies: ["Lecture", "Langues", "Natation", ""],
+			quote: "",
+			githublink: "",
+
+			linkedin: "https://www.linkedin.com/feed/",
+			imgpro: "photos-pro/imgProLaetitiaP.png",
+			imgfun: "",
+		},
+
+		{
+            name: "Chris Y",
+            bootcamp: "Data",
+            professionnalProject: "",
+            hobbies: ["", "", "", ""],
+            quote: "",
+            githublink: "",
+            linkedin: "",
+            imgpro: "photos-pro/imgProChrisY.png",
+            imgfun: ""
+        },
 	];
 
 	function createCard(people) {
@@ -387,7 +713,6 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 		cardImg.alt = `Photo professionnelle de ${name}`;
 		cardImg.classList.add("photoPro");
 
-		// cardBack.append(card);
 		cardBack.append(cardTitle);
 		cardBack.append(cardBoot);
 		cardBack.append(cardImg);
@@ -398,11 +723,15 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 		createCard(wildersToAdd);
 		console.log(wildersToAdd);
 	});
-
-	// for (const people of campus) {
-	// 	createCard(people);
-	// }
 }
+
+cardBack.style.width = '200px';
+
+
+
+
+
+
 
 // }
 // 	else {
