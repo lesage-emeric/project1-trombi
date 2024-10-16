@@ -1,35 +1,35 @@
 @media screen and (max-width: 900px) {
   #logoWildex {
-    margin-left: 120px;
+    display: block;
+    margin: auto;
     height: 7rem;
   }
 
   #navSentence {
     font-size: 1.1rem;
     display: flex;
-    /* align-items: center; */
-    margin-left: 140px;
+    justify-content: center;
+    /* margin-left: 190px; */
     margin-bottom: 50px;
+  }
+
+  #pokeballNavMobile {
+    visibility: visible;
+    height: 7rem;
+    position: absolute;
+    top: 156px;
+    left: 150px;
+  }
+
+  hr {
+    visibility: visible;
+    height: 5px;
+    background-color: black;
+    position: relative;
   }
 
   .titre {
     all: unset;
-  }
-
-  #search {
-    display: flex;
-  }
-
-  .classeur {
-    all: unset;
-  }
-  .classeurDroite {
-    display: none;
-  }
-  .classeurGauche {
-    display: flex;
-    flex-direction: column;
-    box-shadow: none;
   }
 
   .filter {
@@ -51,10 +51,12 @@ STYLE MENU BURGER */
   }
 
   .dropdown {
+    visibility: visible;
     position: relative;
     display: inline-block;
     position: absolute;
     top: 0;
+    left: 40px;
     margin: 5px;
   }
 
@@ -63,7 +65,7 @@ STYLE MENU BURGER */
     /* position: absolute; */
     width: 180px;
     height: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0.5, 0.5, 0.5, 0.5);
+    box-shadow: 0px 8px 16px 0px rgba(1.5, 1.5, 1.5, 1.5);
     background-color: var(background-color);
     line-height: 30px;
     border: 2px solid #385ca5;
@@ -85,39 +87,8 @@ STYLE MENU BURGER */
     display: block;
   }
 
-  hr {
-    visibility: visible;
-    height: 5px;
-    background-color: black;
-    position: relative;
-  }
-
-  /* header {
-  position: relative;
-} */
-
-  #pokeballNavMobile {
-    visibility: visible;
-    height: 7rem;
-    position: absolute;
-    top: 164px;
-    left: 160px;
-  }
-
-  /* .moitieClasseur {
+  .moitieClasseur {
     background-color: #ffcc01;
-  }
-
-  .classeur {
-    all: unset;
-  }
-  .classeurDroite {
-    display: none;
-  }
-  .classeurGauche {
-    display: flex;
-    flex-direction: column;
-    box-shadow: none;
   }
 
   .case1 {
@@ -127,9 +98,24 @@ STYLE MENU BURGER */
   .photoPro {
     flex-direction: column;
     align-items: center;
+  }
+
+  /* .classeur {
+    all: unset;
   } */
 
+  /* .classeurDroite {
+    display: none;
+  } */
+
+  .classeurGauche {
+    /* display: none; */
+    flex-direction: column;
+    box-shadow: none;
+  }
+
   footer {
+    bottom: 0;
     position: relative;
   }
 }
