@@ -1,4 +1,8 @@
 @media screen and (max-width: 900px) {
+	nav {
+		height: 2rem;
+	}
+
 	#logoWildex {
 		display: block;
 		margin: auto;
@@ -9,7 +13,6 @@
 		font-size: 1.1rem;
 		display: flex;
 		justify-content: center;
-		/* margin-left: 190px; */
 		margin-bottom: 50px;
 	}
 
@@ -88,12 +91,22 @@ STYLE MENU BURGER */
 		display: block;
 	}
 
+	/* STYLE CLASSEUR
+STYLE CLASSEUR
+STYLE CLASSEUR
+STYLE CLASSEUR */
+
+	.flipbook {
+		width: 100%;
+		display: none;
+	}
+
 	.moitieClasseur {
 		background-color: #ffcc01;
 	}
 
 	.case1 {
-		height: 100vh;
+		height: 30vh;
 	}
 
 	.photoPro {
@@ -105,14 +118,14 @@ STYLE MENU BURGER */
 		all: unset;
 	}
 
-	.classeurDroite {
-		display: none;
-	}
-
 	.classeurGauche {
-		display: none;
 		flex-direction: column;
 		box-shadow: none;
+	}
+
+	.page {
+		padding: 0.6rem;
+		border-bottom-left-radius: 20%;
 	}
 
 	/* footer {

@@ -81,6 +81,7 @@ body {
 
 .leaf {
 	background-color: rgb(56, 56, 56) !important;
+	border-radius: 20px;
 }
 
 .contents-row {
@@ -165,7 +166,7 @@ STYLE DE LA NAV
 nav {
 	background-color: var(--backgroundColor);
 	width: 100%;
-	height: 20rem;
+	height: 5rem;
 	margin-bottom: 30px;
 }
 
@@ -351,7 +352,7 @@ STYLE CLASSEUR
 	align-items: center;
 	justify-content: center;
 	border-style: dashed double none;
-	border: 2px black;
+	border-style: 1px black;
 }
 
 /* chaque case individuelle du classeur */
@@ -370,7 +371,7 @@ STYLE CLASSEUR
 	width: 75%;
 }
 
-/* .classeur {
+.classeur {
 	display: flex;
 	background-color: blanchedalmond;
 	border: 5px double lightslategray;
@@ -381,7 +382,7 @@ STYLE CLASSEUR
 	width: 80vw;
 	height: 120vh;
 	margin: auto;
-} */
+}
 
 .classeurGauche {
 	border-radius: 3% 3% 3% 3%;
