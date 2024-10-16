@@ -5,6 +5,7 @@
     height: 7rem;
   }
 
+<<<<<<< HEAD
   #navSentence {
     font-size: 1.1rem;
     display: flex;
@@ -20,6 +21,25 @@
     top: 156px;
     left: 150px;
   }
+=======
+nav {
+  height: 2rem;
+}
+
+
+#logoWildex {
+  display: block;
+  margin: auto;
+  height: 7rem;
+}
+
+#navSentence {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+>>>>>>> 1312765af2c5ba499c45dcd378d7329b36766480
 
   hr {
     visibility: visible;
@@ -50,8 +70,60 @@ STYLE MENU BURGER */
     cursor: pointer;
   }
 
+<<<<<<< HEAD
   .dropdown {
     visibility: visible;
+=======
+label, input:hover {
+  cursor: pointer;
+}
+
+.dropdown:hover 
+.dropdown-content {
+  display: block;
+}
+
+/* STYLE CLASSEUR
+STYLE CLASSEUR
+STYLE CLASSEUR
+STYLE CLASSEUR */
+
+.flipbook {
+  width: 100%;
+  display: none;
+}
+
+.moitieClasseur {
+  background-color: #ffcc01;
+}
+
+.case1 {
+  height: 30vh;
+}
+
+.photoPro {
+  flex-direction: column;
+  align-items: center;
+}
+
+.classeur {
+  all: unset;
+}
+
+.classeurGauche {
+  flex-direction: column;
+  box-shadow: none;
+}
+
+.page { 
+  padding: 0.6rem;
+  border-bottom-left-radius: 20%;
+}
+
+
+
+  /* footer {
+>>>>>>> 1312765af2c5ba499c45dcd378d7329b36766480
     position: relative;
     display: inline-block;
     position: absolute;

@@ -169,7 +169,7 @@
 			"linkedin": "www.linkedin.com/in/elena-degallaix-533324269",
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunElenaD.jpeg"
-		}
+		},
 		{
 			"name": "Ludovic M",
 			"bootcamp": "Data",
@@ -180,7 +180,7 @@
 			"linkedin": "https://www.linkedin.com/in/ludovic-maillard-7179412a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunLudovicM.jpg"
-		}	
+		}	,
 			{
 			"name": "Arnaud G",
 			"bootcamp": "Dev",
@@ -191,7 +191,7 @@
 			"linkedin": "https://www.linkedin.com/in/guevaer-arnaud-11434a2a9/",
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunArnaudG.jpg"
-		}
+		},
 			{
 			"name": "Tiphaine S",
 			"bootcamp": "",
@@ -202,7 +202,7 @@
 			"linkedin": "linkedin.com/in/tiphaine-subtil",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 			{
 			"name": "Antonin D",
 			"bootcamp": "Data",
@@ -213,7 +213,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 			{
 			"name": "Soufiane R",
 			"bootcamp": "Data",
@@ -224,7 +224,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 			{
 			"name": "williams V",
 			"bootcamp": "Data",
@@ -235,7 +235,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 				{
 			"name": "Nicolas V",
 			"bootcamp": "Data",
@@ -246,7 +246,7 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 				{
 			"name": "Fantine R",
 			"bootcamp": "Formatrice Dev",
@@ -257,8 +257,118 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
 				{
+			"name": "Riad S",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["Voyages", "Natation", "", ""],
+			"quote": "I do not want to you to save me, I want you to stand by me whiled I save myself.",
+			"githublink": "",
+			"linkedin": "https://www.linkedin.com/feed/",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Thomas P",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "Oublies que tu n'as aucune chance, vas y fonces !",
+			"githublink": "",
+			"linkedin": "linkedin.com/in/thomas-porcher-16babaa4",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Leslie B",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["Clarinette", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "https://www.linkedin.com/feed/",
+			"imgpro": "",
+			"imgfun": "photos-fun/imgFunLeslieB.png"
+		},
+		{
+			"name": "David B",
+			"bootcamp": "Data",
+			"project": "Alternance en Data IA",
+			"hobbies": ["Sport", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Zséno F",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "Je ne perds jamais. Soit je gagne, soit j'apprends",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Jean-Alain D",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["Jeux vidéo", "Voyages", "Sport automobile", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Jezabel M",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "Jamais un échec, toujours une leçon",
+			"githublink": "",
+			"linkedin": "https://www.linkedin.com/in/jezabel-montigny-428145112?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Daniel D",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["Musique", "Cinéma", "", ""],
+			"quote": "Qui pose 1 question à l'air bête 5 minutes, qui n'en pose pas à l'air bête toute sa vie",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Sopanha S",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["Musique", "Films", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "https://www.linkedin.com/in/sopanha-sao-7648a6a3/",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "Laetita P",
+			"bootcamp": "Data",
+			"project": "",
+			"hobbies": ["Lecture", "Langues", "Natation", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "https://www.linkedin.com/feed/",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
 			"name": "",
 			"bootcamp": "",
 			"project": "",
@@ -268,6 +378,83 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		}
+		},
+		{
+			"name": "",
+			"bootcamp": "",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "",
+			"bootcamp": "",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "",
+			"bootcamp": "",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "",
+			"bootcamp": "",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "",
+			"bootcamp": "",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "",
+			"bootcamp": "",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
+		{
+			"name": "",
+			"bootcamp": "",
+			"project": "",
+			"hobbies": ["", "", "", ""],
+			"quote": "",
+			"githublink": "",
+			"linkedin": "",
+			"imgpro": "",
+			"imgfun": ""
+		},
 	]
 }
