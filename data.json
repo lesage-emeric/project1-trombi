@@ -87,7 +87,7 @@
             Harry Potter et le Prisonnier d'Azkaban",
 			"githublink": "https://github.com/itisalicia",
 			"linkedin": "https://www.linkedin.com/in/alicia-magro-3b658a292/",
-			"imgpro": "photos-pro/imgProAliciaM.jpeg",
+			"imgpro": "photos-pro/imgProAliciaM.png",
 			"imgfun": "photos-fun/imgFunAliciaM.jpeg"
 		},
 		{
@@ -194,7 +194,7 @@
 		},
 			{
 			"name": "Tiphaine S",
-			"bootcamp": "",
+			"bootcamp": "Formatrice Data",
 			"project": "",
 			"hobbies": ["Randonnées", "Patisserie", "Roller"],
 			"quote": "",
@@ -381,7 +381,7 @@
 		},
 		{
 			"name": "Soufiane M",
-			"bootcamp": "FormateurData",
+			"bootcamp": "Formateur Data",
 			"project": "",
 			"hobbies": ["", "", "", ""],
 			"quote": "",
