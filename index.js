@@ -105,22 +105,28 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 // 		alert("coucou");
 // 	});
 // });
-const displayCard = document.querySelectorAll(".case");
-// biome-ignore lint/complexity/noForEach: <explanation>
-displayCard.forEach((card) => {
-	card.addEventListener("click", () => {
-		const frontCard = document.querySelector(".cardFront");
-		frontCard.style.display = "flex";
-		const hideCard = document.querySelectorAll(".x");
-		// biome-ignore lint/complexity/noForEach: <explanation>
-		hideCard.forEach((card) => {
-			card.addEventListener("click", () => {
-				frontCard.style.display = "none";
-			});
-		});
-	});
-});
+// const displayCard = document.querySelectorAll(".case");
+// // biome-ignore lint/complexity/noForEach: <explanation>
+// displayCard.forEach((card) => {
+// 	card.addEventListener("click", () => {
+// 		const frontCard = document.querySelector(".cardFront");
+// 		frontCard.style.display = "flex";
+// 		const hideCard = document.querySelectorAll(".x");
+// 		// biome-ignore lint/complexity/noForEach: <explanation>
+// 		hideCard.forEach((card) => {
+// 			card.addEventListener("click", () => {
+// 				frontCard.style.display = "none";
+// 			});
+// 		});
+// 	});
+// });
 
+const arnaudBack = document.querySelector(".arnaudBack");
+arnaudBack.addEventListener("click", () => {
+	alert("CA MARCHE ?");
+	const arnaudFront = document.querySelector(".arnaudFront");
+	arnaudFront.style.display = "flex";
+});
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
