@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Year book | Wilders september 2024</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mobile.css" />
+  <link rel="stylesheet" href="mobile.css"/>
   <link rel="icon" type="image/x-icon" href="POKEBALL.png" />
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
@@ -50,17 +50,63 @@
       </div>
     </nav>
   </header>
+<!-- BASE DU CODE POUR LE FRONT DE LA CARD
+     BASE DU CODE POUR LE FRONT DE LA CARD
+     BASE DU CODE POUR LE FRONT DE LA CARD
+     BASE DU CODE POUR LE FRONT DE LA CARD
+    -->
 
+    <section class="cardFront cardFrontMobile">
+      
+        <div class="titleCardFront">
+          <h2 class="titreCardFront">PRENOM</h2>
+          <h2 class="titre2CardFront">DEV / DATA</h2>
+        </div>
+
+        <!-- BIEN CHANGER L'URL DE LA PHOTO !!! 
+      BIEN CHANGER L'URL DE LA PHOTO !!!
+      BIEN CHANGER L'URL DE LA PHOTO !!!
+      BIEN CHANGER L'URL DE LA PHOTO !!!
+      BIEN CHANGER L'URL DE LA PHOTO !!! -->
+        <div class ="imgContainer">
+        <img
+          class="pictureCardFront"
+          src="photos-fun/imgFunArnaudG.png"
+          alt="INSERER ICI UNE DESCRIPTION"
+        />
+      </div>
+        <blockquote class="quoteCardFront">
+          "Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
+          elementum habitant conubia ac gue."
+        </blockquote>
+
+        <article class="hobbies">
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Congue ipsum
+          elementum habitant cou pulvinar augue.
+        </article>
+        <div class="logo">
+          <a href="https://github.com/"
+            ><img src="logoGitHub2.png" class="logoGitHub" alt="logo de github"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img
+              src="logo-linkedIn.png"
+              class="logoLinkedin"
+              alt="logo Linkedin"
+          /></a>
+        </div>
+      
+    </section>
   <!-- DOS DES CARTES -->
 
   <!-- classeur entier -->
-  <div class="flipbook centered" id="flipbook">
+  <div class="flipbook centered " id="flipbook">
     <div class="leaf">
       <div class="page front title external" style="background-color:  rgb(56, 56, 56)">
         <h1>WILDEX</h1>
         <em>ATTRAPEZ LES TOUS</em>
       </div>
-      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+      <div class="page back page1" style="background-color:  rgb(56, 56, 56)">
 
         <section class="moitieClasseur classeurGauche">
           <!-- chacune des cases du classeur  -->
@@ -116,7 +162,7 @@
       </div>
     </div>
     <div class="leaf">
-      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+      <div class="page front page2" style="background-color:  rgb(56, 56, 56)">
         <section class="moitieClasseur classeurDroite">
           <article class="case case5">
             <section class="cardBack">
@@ -170,10 +216,10 @@
           </article>
         </section>
       </div>
-      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+      <div class="page back page3" style="background-color:  rgb(56, 56, 56)">
         <section class="moitieClasseur classeurGauche">
           <!-- chacune des cases du classeur  -->
-          <article class="case case1">
+          <article class="case case9">
             <section class="cardBack">
               <h6>WILDEX</h6>
               <article class="photoPro">
@@ -198,6 +244,9 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+            </section>
+
           </article>
           <article class="case case3">
             <section class="cardBack">
@@ -209,6 +258,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -222,13 +273,15 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
       </div>
     </div>
     <div class="leaf">
-      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+      <div class="page front page4" style="background-color:  rgb(56, 56, 56)">
         <section class="moitieClasseur classeurGauche">
           <!-- chacune des cases du classeur  -->
           <article class="case case1">
@@ -241,6 +294,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -253,6 +308,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -266,6 +323,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -278,11 +337,13 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
       </div>
-      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+      <div class="page back page5" style="background-color:  rgb(56, 56, 56)">
         <section class="moitieClasseur classeurGauche">
           <!-- chacune des cases du classeur  -->
           <article class="case case1">
@@ -294,6 +355,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -307,6 +370,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -320,6 +385,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -333,13 +400,15 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
       </div>
     </div>
     <div class="leaf">
-      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+      <div class="page front page6" style="background-color:  rgb(56, 56, 56)">
         <section class="moitieClasseur classeurGauche">
           <!-- chacune des cases du classeur  -->
           <article class="case case1">
@@ -352,6 +421,8 @@
                 <!-- Nom de la personne juste sous la photo ou alors superposé au bas de
                             la photo -->
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -359,10 +430,12 @@
             <section class="cardBack">
               <h6>WILDEX</h6>
               <article class="photoPro">
-                <img class="photoProEmericL" src="photos-pro/imgProWilliamsV.png"
+                <img class="photoProEmericL" src="photos-pro/imgProWilliamV.png"
                   alt="Photo professionnelle de Williams V" />
                 <p class="name">Williams V</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -370,10 +443,12 @@
             <section class="cardBack">
               <h6>WILDEX</h6>
               <article class="photoPro">
-                <img class="photoProEmericL" src="photos-pro/imgProNicolasD.png"
+                <img class="photoProEmericL" src="photos-pro/imgProNicolasV.png"
                   alt="Photo professionnelle de Nicolas V" />
                 <p class="name">Nicolas V</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
@@ -384,11 +459,13 @@
                 <img class="photoProEmericL" src="photos-pro/imgProRiadS.png" alt="Photo professionnelle de Riad S" />
                 <p class="name">Riad S</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
 
       </div>
-      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+      <div class="page back page7" style="background-color:  rgb(56, 56, 56)">
         <section class="moitieClasseur classeurGauche">
           <!-- chacune des cases du classeur  -->
           <article class="case case1">
@@ -399,6 +476,8 @@
                   alt="Photo professionnelle de Thomas P" />
                 <p class="name">Tomas P</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
           <article class="case case2">
@@ -409,6 +488,8 @@
                   alt="Photo professionnelle de Leslie B" />
                 <p class="name">Leslis B</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
           <article class="case case3">
@@ -418,6 +499,8 @@
                 <img class="photoProEmericL" src="photos-pro/imgProDavidB.png" alt="Photo professionnelle de David B" />
                 <p class="name">David B</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
           <article class="case case4">
@@ -427,13 +510,15 @@
                 <img class="photoProEmericL" src="photos-pro/imgProZsénoF.png" alt="Photo professionnelle de Zséno F" />
                 <p class="name">Zséno F</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
         </section>
       </div>
     </div>
     <div class="leaf">
-      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+      <div class="page front page8" style="background-color:  rgb(56, 56, 56)">
         <section class="moitieClasseur classeurGauche">
           <!-- chacune des cases du classeur  -->
           <article class="case case1">
@@ -444,6 +529,8 @@
                   alt="Photo professionnelle de Jean Alian D" />
                 <p class="name">Jean Alain D</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
           <article class="case case2">
@@ -454,7 +541,9 @@
                   alt="Photo professionnelle de Jezabel M" />
                 <p class="name">Jezabel M</p>
               </article>
-            </section>v
+              <h6 class="h6return">WILDEX</h6>
+
+            </section>
           </article>
           <article class="case case3">
             <section class="cardBack">
@@ -464,6 +553,8 @@
                   alt="Photo professionnelle de Daniel D" />
                 <p class="name">Daniel D</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
           <article class="case case4">
@@ -474,10 +565,12 @@
                   alt="Photo professionnelle de Sopanha S" />
                 <p class="name">Sopanha S</p>
               </article>
+              <h6 class="h6return">WILDEX</h6>
+
             </section>
           </article>
         </section>
-        <div class="page back" style="background-color:  rgb(56, 56, 56)">
+        <div class="page back page9" style="background-color:  rgb(56, 56, 56)">
           <section class="moitieClasseur classeurGauche">
             <!-- chacune des cases du classeur  -->
             <article class="case case1">
@@ -488,10 +581,34 @@
                     alt="Photo professionnelle de Laetitia P" />
                   <p class="name">Laetitia P</p>
                 </article>
+                <h6 class="h6return">WILDEX</h6>
+
               </section>
             </article>
-            <article class="case case2"></article>
-            <article class="case case3"></article>
+            <article class="case case2">
+              <section class="cardBack">
+                <h6>WILDEX</h6>
+                <article class="photoPro">
+                  <img class="photoProEmericL" src="photos-pro/imgProSoufianeM.png"
+                    alt="Photo professionnelle de Soufiane M" />
+                  <p class="name">Soufiane M</p>
+                </article>
+                <h6 class="h6return">WILDEX</h6>
+
+              </section>
+            </article>
+            <article class="case case3">
+              <section class="cardBack">
+                <h6>WILDEX</h6>
+                <article class="photoPro">
+                  <img class="photoProEmericL" src="photos-pro/imgProChrisY.png"
+                    alt="Photo professionnelle de Chris Y" />
+                  <p class="name">Chris Y</p>
+                </article>
+                <h6 class="h6return">WILDEX</h6>
+
+              </section>
+            </article>
             <article class="case case4"></article>
           </section>
         </div>
@@ -499,10 +616,10 @@
       </div>
     </div>
     <div class="leaf">
-      <div class="page front" style="background-color:  rgb(56, 56, 56)">
+      <div class="page front page10" style="background-color:  rgb(56, 56, 56)">
 
       </div>
-      <div class="page back" style="background-color:  rgb(56, 56, 56)">
+      <div class="page back page11" style="background-color:  rgb(56, 56, 56)">
       </div>
     </div>
   </div>
@@ -510,7 +627,7 @@
     <button id="prevPage">&lt; Previous</button>
     <button id="nextPage">Next &gt;</button>
   </div>
-
+   
   <script src="index.js"></script>
 
   <footer>
