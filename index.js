@@ -105,25 +105,20 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 // 		alert("coucou");
 // 	});
 // });
-// const displayCard = document.querySelectorAll(".case");
-// // biome-ignore lint/complexity/noForEach: <explanation>
-// displayCard.forEach((card) => {
-// 	card.addEventListener("click", () => {
-// 		const frontCard = document.querySelector(".cardFront");
-// 		frontCard.style.display = "flex";
-// 		const hideCard = document.querySelectorAll(".x");
-// 		// biome-ignore lint/complexity/noForEach: <explanation>
-// 		hideCard.forEach((card) => {
-// 			card.addEventListener("click", () => {
-// 				frontCard.style.display = "none";
-// 			});
-// 		});
-// 	});
-// });
-
-const afficherArnaud = document.querySelector(".arnaud");
-afficherArnaud.addEventListener("click", () => {
-	afficherArnaud.style.display = "flex";
+const displayCard = document.querySelectorAll(".case");
+// biome-ignore lint/complexity/noForEach: <explanation>
+displayCard.forEach((card) => {
+	card.addEventListener("click", () => {
+		const frontCard = document.querySelector(".cardFront");
+		frontCard.style.display = "flex";
+		const hideCard = document.querySelectorAll(".x");
+		// biome-ignore lint/complexity/noForEach: <explanation>
+		hideCard.forEach((card) => {
+			card.addEventListener("click", () => {
+				frontCard.style.display = "none";
+			});
+		});
+	});
 });
 
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
@@ -586,3 +581,97 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 		console.log(wildersToAdd);
 	});
 }
+
+/////////////////////////////////
+//////Checkbox Filter ///////////
+/////////////////////////////////
+const filter = document.getElementsByTagName("input");
+const data = document.querySelectorAll(".data");
+const dev = document.querySelectorAll(".dev");
+const crew = document.querySelectorAll(".crew");
+
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+
+const checkboxes = [...filter];
+
+// biome-ignore lint/complexity/noForEach: <explanation>
+checkboxes.forEach((checkBox) => {
+	checkBox.addEventListener("click", () => {
+		if (checkBox.name === "data") {
+			const allDatasCards = document.getElementsByClassName("data");
+			console.log(allDatasCards);
+			for (let data of allDatasCards) {
+				if (data.style.opacity == 0) {
+					data.style.opacity = 1;
+				} else {
+					data.style.opacity = 0;
+				}
+			}
+		}
+	});
+});
+
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+
+// biome-ignore lint/complexity/noForEach: <explanation>
+checkboxes.forEach((checkBox) => {
+	checkBox.addEventListener("click", () => {
+		if (checkBox.name === "dev") {
+			const allDevsCards = document.getElementsByClassName("dev");
+			console.log(allDevsCards);
+			for (let dev of allDevsCards) {
+				if (dev.style.opacity == 0) {
+					dev.style.opacity = 1;
+				} else {
+					dev.style.opacity = 0;
+				}
+			}
+		}
+	});
+});
+
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+
+// biome-ignore lint/complexity/noForEach: <explanation>
+checkboxes.forEach((checkBox) => {
+	checkBox.addEventListener("click", () => {
+		if (checkBox.name === "crew") {
+			const allCrewCards = document.getElementsByClassName("crew");
+			console.log(allCrewCards);
+			for (let crew of allCrewCards) {
+				if (crew.style.opacity == 0) {
+					crew.style.opacity = 1;
+				} else {
+					crew.style.opacity = 0;
+				}
+			}
+		}
+	});
+});
+
+// filter.classList.add("label");
+// data.classList.add("dataFilter");
+// dev.classList.add("devFilter");
+// crewDev.classList.add("crewDev");
+// crewData.classList.add("crewData");
+
+// function filterDev(student) {
+// 	console.log(student.bootcamp);
+// 	checkBox.addEventListener("click", () => {
+// 		if (filter === dev) {
+// 			result = data.style.opacity = "30%";
+// 		}
+// 	});
+// }
