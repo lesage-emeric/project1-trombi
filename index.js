@@ -123,9 +123,42 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 
 const arnaudBack = document.querySelector(".arnaudBack");
 arnaudBack.addEventListener("click", () => {
-	alert("CA MARCHE ?");
 	const arnaudFront = document.querySelector(".arnaudFront");
 	arnaudFront.style.display = "flex";
+	const hideCard = document.querySelector(".x");
+	hideCard.addEventListener("click", () => {
+		arnaudFront.style.display = "none";
+	});
+});
+
+const MathieuBack = document.querySelector(".mathieuBack");
+MathieuBack.addEventListener("click", () => {
+	const Mathieufront = document.querySelector(".mathieuFront");
+	Mathieufront.style.display = "flex";
+	const hideCard = document.querySelector(".x2");
+	hideCard.addEventListener("click", () => {
+		Mathieufront.style.display = "none";
+	});
+});
+
+const fantineBack = document.querySelector(".fantineBack");
+fantineBack.addEventListener("click", () => {
+	const fantineFront = document.querySelector(".fantineFront");
+	fantineFront.style.display = "flex";
+	const hideCard = document.querySelector(".x3");
+	hideCard.addEventListener("click", () => {
+		fantineFront.style.display = "none";
+	});
+});
+
+const elenaBack = document.querySelector(".elenaBack");
+elenaBack.addEventListener("click", () => {
+	const ElenaFront = document.querySelector(".elenaFront");
+	ElenaFront.style.display = "flex";
+	const hideCard = document.querySelector(".x4");
+	hideCard.addEventListener("click", () => {
+		ElenaFront.style.display = "none";
+	});
 });
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
