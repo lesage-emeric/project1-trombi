@@ -276,6 +276,9 @@ STYLE CARD FRONT
 	left: 35%;
 	display: none;
 }
+/* .arnaud {
+	display: flex;
+} */
 .imgContainer {
 	width: 10rem;
 	height: 10rem;
@@ -412,4 +415,12 @@ footer {
 
 .cardBackMobile {
 	display: none;
+}
+.alignNom {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.x {
+	height: 2rem;
 }
