@@ -214,10 +214,10 @@ STYLE CARD BACK
 	position: relative;
 }
 
-.cardBack:hover {
+/* .cardBack:hover {
 	transform: translate(0px, -50px);
 	transition: all 0.3s ease-out;
-}
+} */
 
 .pokewildex {
 	display: flex;
