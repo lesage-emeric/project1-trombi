@@ -299,7 +299,7 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
 // 	JUSTE UNE TENTATIVE POUR CRÉER LES CARDS POUR LE RESPONSIVE
 
-if (window.matchMedia("(min-width: 400px)").matches) {
+if (window.matchMedia("(max-width: 900px)").matches) {
 	//la largeur minimum de l'affichage est 400px inclu
 
 	const cardBack = document.querySelector(".cardBack");
@@ -430,7 +430,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "https://github.com/MTimot",
 			linkedin: "https://www.linkedin.com/in/timothey-mesmacque-924b56331/",
-			imgpro: "photos-pro/imgProTimotheyM.png",
+			imgpro: "photos-pro/imgProThimotheyM.png",
 			imgfun: "",
 		},
 
@@ -714,6 +714,18 @@ if (window.matchMedia("(min-width: 400px)").matches) {
             githublink: "",
             linkedin: "",
             imgpro: "photos-pro/imgProChrisY.png",
+            imgfun: ""
+        },
+
+		{
+            name: "Soufiane M",
+            bootcamp: "FormateurData",
+            professionnalProject: "",
+            hobbies: ["", "", "", ""],
+            quote: "",
+            githublink: "",
+            linkedin: "",
+            imgpro: "photos-pro/imgProSoufianeM.png",
             imgfun: ""
         },
 	];
