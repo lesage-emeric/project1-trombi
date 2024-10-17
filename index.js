@@ -99,7 +99,6 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 ///////test event on click/////////
 ///////////////////////////////////
 
-
 // const rotateCard = document.querySelectorAll(".case");
 // rotateCard.forEach((rotate) => {
 // 	rotate.addEventListener("click", () => {
@@ -574,6 +573,7 @@ displayCard.forEach((card) => {
 				document.body.append(cardBackMobile);
 			}
 
+			// biome-ignore lint/complexity/noForEach: <explanation>
 			wildersToAdd.forEach((wildersToAdd) => {
 				createCard(wildersToAdd);
 				console.log(wildersToAdd);
@@ -581,3 +581,97 @@ displayCard.forEach((card) => {
 		}
 	});
 });
+
+/////////////////////////////////
+//////Checkbox Filter ///////////
+/////////////////////////////////
+const filter = document.getElementsByTagName("input");
+const data = document.querySelectorAll(".data");
+const dev = document.querySelectorAll(".dev");
+const crew = document.querySelectorAll(".crew");
+
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+// FILTRE POUR LES DATA
+
+const checkboxes = [...filter];
+
+// biome-ignore lint/complexity/noForEach: <explanation>
+checkboxes.forEach((checkBox) => {
+	checkBox.addEventListener("click", () => {
+		if (checkBox.name === "data") {
+			const allDatasCards = document.getElementsByClassName("data");
+			console.log(allDatasCards);
+			for (let data of allDatasCards) {
+				if (data.style.opacity == 0) {
+					data.style.opacity = 1;
+				} else {
+					data.style.opacity = 0;
+				}
+			}
+		}
+	});
+});
+
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+// FILTRE POUR LES DEV
+
+// biome-ignore lint/complexity/noForEach: <explanation>
+checkboxes.forEach((checkBox) => {
+	checkBox.addEventListener("click", () => {
+		if (checkBox.name === "dev") {
+			const allDevsCards = document.getElementsByClassName("dev");
+			console.log(allDevsCards);
+			for (let dev of allDevsCards) {
+				if (dev.style.opacity == 0) {
+					dev.style.opacity = 1;
+				} else {
+					dev.style.opacity = 0;
+				}
+			}
+		}
+	});
+});
+
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+// FILTRE POUR LES CREW
+
+// biome-ignore lint/complexity/noForEach: <explanation>
+checkboxes.forEach((checkBox) => {
+	checkBox.addEventListener("click", () => {
+		if (checkBox.name === "crew") {
+			const allCrewCards = document.getElementsByClassName("crew");
+			console.log(allCrewCards);
+			for (let crew of allCrewCards) {
+				if (crew.style.opacity == 0) {
+					crew.style.opacity = 1;
+				} else {
+					crew.style.opacity = 0;
+				}
+			}
+		}
+	});
+});
+
+// filter.classList.add("label");
+// data.classList.add("dataFilter");
+// dev.classList.add("devFilter");
+// crewDev.classList.add("crewDev");
+// crewData.classList.add("crewData");
+
+// function filterDev(student) {
+// 	console.log(student.bootcamp);
+// 	checkBox.addEventListener("click", () => {
+// 		if (filter === dev) {
+// 			result = data.style.opacity = "30%";
+// 		}
+// 	});
+// }
