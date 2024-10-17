@@ -354,8 +354,6 @@ STYLE CLASSEUR
 	grid-template-rows: 1fr 1fr;
 	align-items: center;
 	justify-content: center;
-	border-style: dashed double none;
-	border-style: 1px black;
 }
 
 /* chaque case individuelle du classeur */

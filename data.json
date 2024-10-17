@@ -83,8 +83,7 @@
 			"bootcamp": "Développeur full stack",
 			"project": "",
 			"hobbies": ["Cinéma", "Écriture", "Musique"],
-			"quote": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light - Albus Dumbledore, 
-            Harry Potter et le Prisonnier d'Azkaban",
+			"quote": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light - Albus Dumbledore, Harry Potter et le Prisonnier d'Azkaban",
 			"githublink": "https://github.com/itisalicia",
 			"linkedin": "https://www.linkedin.com/in/alicia-magro-3b658a292/",
 			"imgpro": "photos-pro/imgProAliciaM.jpeg",
@@ -180,8 +179,8 @@
 			"linkedin": "https://www.linkedin.com/in/ludovic-maillard-7179412a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunLudovicM.jpg"
-		}	,
-			{
+		},
+		{
 			"name": "Arnaud G",
 			"bootcamp": "Dev",
 			"project": "Développeur web",
@@ -192,7 +191,7 @@
 			"imgpro": "",
 			"imgfun": "photos-fun/imgFunArnaudG.jpg"
 		},
-			{
+		{
 			"name": "Tiphaine S",
 			"bootcamp": "",
 			"project": "",
@@ -203,7 +202,7 @@
 			"imgpro": "",
 			"imgfun": ""
 		},
-			{
+		{
 			"name": "Antonin D",
 			"bootcamp": "Data",
 			"project": "",
@@ -214,7 +213,7 @@
 			"imgpro": "",
 			"imgfun": ""
 		},
-			{
+		{
 			"name": "Soufiane R",
 			"bootcamp": "Data",
 			"project": "",
@@ -225,7 +224,7 @@
 			"imgpro": "",
 			"imgfun": ""
 		},
-			{
+		{
 			"name": "williams V",
 			"bootcamp": "Data",
 			"project": "Travailler comme chef de projet dans le domaine de la santé",
@@ -236,7 +235,7 @@
 			"imgpro": "",
 			"imgfun": ""
 		},
-				{
+		{
 			"name": "Nicolas V",
 			"bootcamp": "Data",
 			"project": "Retourner dans l'agroalimentaire avec un nouvel axe data",
@@ -247,7 +246,7 @@
 			"imgpro": "",
 			"imgfun": ""
 		},
-				{
+		{
 			"name": "Fantine R",
 			"bootcamp": "Formatrice Dev",
 			"project": "Aller au bout de cette session",
@@ -258,7 +257,7 @@
 			"imgpro": "",
 			"imgfun": ""
 		},
-				{
+		{
 			"name": "Riad S",
 			"bootcamp": "Data",
 			"project": "",
@@ -455,6 +454,6 @@
 			"linkedin": "",
 			"imgpro": "",
 			"imgfun": ""
-		},
+		}
 	]
 }
