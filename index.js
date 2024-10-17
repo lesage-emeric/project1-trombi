@@ -99,6 +99,7 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 ///////test event on click/////////
 ///////////////////////////////////
 
+
 // const rotateCard = document.querySelectorAll(".case");
 // rotateCard.forEach((rotate) => {
 // 	rotate.addEventListener("click", () => {
