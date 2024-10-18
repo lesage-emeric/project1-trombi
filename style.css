@@ -382,6 +382,7 @@ STYLE CARD FRONT
 .titre2CardFront {
 	font-size: 1.3rem;
 }
+
 .titre {
 	display: flex;
 	align-items: flex-end;
@@ -395,12 +396,14 @@ STYLE CARD FRONT
 .quoteCardFront {
 	font-style: italic;
 	text-align: justify;
-	padding: 5px;
+	margin:0;
+	font-size:1.3rem;
 }
 
 .hobbies {
 	text-align: justify;
-	padding: 5px;
+	/* padding: 5px; */
+	font-size:1.3rem;
 }
 
 body {
