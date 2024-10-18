@@ -22,4 +22,4 @@ Day 4 :
 Louis a travaillé sur le texte incurvé
 Alicia a travaillé sur la navbar
 Mathieu a travaillé sur la récolte de données côté DATA
-Emeric et Timothey ont travaillé sur le cod epour le rendre plus propre
+Emeric et Timothey ont travaillé sur le code pour le rendre plus propre
