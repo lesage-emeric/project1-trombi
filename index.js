@@ -594,7 +594,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 		cardBackMobile.style.marginBottom = "20px";
 		cardBackMobile.style.marginLeft = "10%";
 		cardBackMobile.style.marginRight = "10%";
-		cardBackMobile.style.height = "500px";
+		cardBackMobile.style.height = "350px";
 		cardBackMobile.style.fontSize = "2rem";
 
 		const cardTitle = document.createElement("h6");
