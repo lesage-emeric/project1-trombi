@@ -1,5 +1,5 @@
 :root {
-	--backgroundColor: #ffcc01;
+	--backgroundColor:yellow;
 	--bluePokemon: #385ca5;
 	--devColor: #d6444c;
 	--dataColor: #2667ef;
@@ -8,7 +8,61 @@
 * {
 	box-sizing: border-box;
 }
-
+#nextPage {
+	display: block;
+	background-color: #385CA5;
+	border-radius: 10px;
+	border: 4px double #1F69EC;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px;
+	width: 100px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	margin-bottom: 20px;
+	margin-left: 10px;
+  }
+  #nextPage:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #1F69EC;
+	box-shadow: 10px 5px 5px #719FEE;
+	color: #1F69EC;
+	text-align: center;
+	font-size: 15px;
+  }
+  #prevPage {
+	display: block;
+	background-color: #385CA5;
+	border-radius: 10px;
+	border: 4px double #1F69EC;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px;
+	width: 100px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	margin-bottom: 20px;
+	margin-right: 10px;
+  }
+  #prevPage:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #1F69EC;
+	box-shadow: 10px 5px 5px #719FEE;
+	color: #1F69EC;
+	text-align: center;
+	font-size: 15px;
+  }
+ .controls{
+	display:flex;
+  }
 body {
 	margin-left: 10%;
 	margin-right: 10%;

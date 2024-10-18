@@ -261,7 +261,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 				"Happiness can be found, even in the darkest of times, if one only remembers to turn on the light",
 			githublink: "https://github.com/itisalicia",
 			linkedin: "https://www.linkedin.com/in/alicia-magro-3b658a292/",
-			imgpro: "photos-pro/imgProAliciaM.jpg",
+			imgpro: "photos-pro/imgProAliciaM.png",
 			imgfun: "photos-fun/imgFunAliciaM.jpg",
 		},
 
@@ -296,7 +296,7 @@ if (window.matchMedia("(min-width: 400px)").matches) {
 			quote: "",
 			githublink: "https://github.com/MTimot",
 			linkedin: "https://www.linkedin.com/in/timothey-mesmacque-924b56331/",
-			imgpro: "photos-pro/imgProThimotheyM.png",
+			imgpro: "photos-pro/imgProTimotheyM.png",
 			imgfun: "",
 		},
 
