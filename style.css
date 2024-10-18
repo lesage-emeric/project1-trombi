@@ -25,58 +25,58 @@
 	transition: all 0.5s;
 	margin-bottom: 20px;
 	margin-left: 10px;
-  }
-  #nextPage:hover {
+}
+#nextPage:hover {
 	background-color: #FFFFFF;
 	border: 2px solid #1F69EC;
 	box-shadow: 10px 5px 5px #719FEE;
 	color: #1F69EC;
 	text-align: center;
 	font-size: 15px;
-  }
+}
   #prevPage {
-	display: block;
-	background-color: #385CA5;
-	border-radius: 10px;
-	border: 4px double #1F69EC;
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 10px;
-	padding: 10px;
-	width: 100px;
-	cursor: pointer;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-	margin-bottom: 20px;
-	margin-right: 10px;
+	  display: block;
+	  background-color: #385CA5;
+	  border-radius: 10px;
+	  border: 4px double #1F69EC;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 10px;
+	  padding: 10px;
+	  width: 100px;
+	  cursor: pointer;
+	  -webkit-transition: all 0.5s;
+	  -moz-transition: all 0.5s;
+	  -o-transition: all 0.5s;
+	  transition: all 0.5s;
+	  margin-bottom: 20px;
+	  margin-right: 10px;
+	}
+	#prevPage:hover {
+		background-color: #FFFFFF;
+		border: 2px solid #1F69EC;
+		box-shadow: 10px 5px 5px #719FEE;
+		color: #1F69EC;
+		text-align: center;
+		font-size: 15px;
   }
-  #prevPage:hover {
-	background-color: #FFFFFF;
-	border: 2px solid #1F69EC;
-	box-shadow: 10px 5px 5px #719FEE;
-	color: #1F69EC;
-	text-align: center;
-	font-size: 15px;
-  }
- .controls{
-	display:flex;
-  }
-body {
-	margin-left: 10%;
-	margin-right: 10%;
-	background-color: var(--backgroundColor);
-	font-family: "Hind Siliguri", sans-serif;
-}
+  .controls{
+	  display:flex;
+	}
+	body {
+		margin-left: 10%;
+		margin-right: 10%;
+		background-color: var(--backgroundColor);
+		font-family: "Hind Siliguri", sans-serif;
+	}
 
-.centered {
-	margin: auto;
-	width: max-content;
-}
-
-.flipbook {
-	margin: 3em auto;
+	.centered {
+		margin: auto;
+		width: max-content;
+	}
+	
+	.flipbook {
+		margin: 3em auto;
 	width: 50vw;
 	height: 80vh;
 	position: relative;
@@ -146,11 +146,11 @@ body {
 		height: 1em;
 		border-bottom: 1px dashed #000;
 	}
-
+	
 	.text {
 		flex: 0 0 auto;
 	}
-
+	
 	body[onload] {
 		/*Cheesing the preview*/
 		transform: scale(1.5);
@@ -210,11 +210,11 @@ STYLE DE LA NAV
 } /* * {
     margin: 0;
     padding: 0;
-} */
-
-#logoWildex {
-	height: 10em;
-	width: auto;
+	} */
+	
+	#logoWildex {
+		height: 10em;
+		width: auto;
 }
 
 nav {
@@ -268,10 +268,28 @@ STYLE CARD BACK
 	position: relative;
 }
 
+.resizewild{
+	height:50px;
+	width:50px;
+}
+.pokewild{
+	display:flex;
+	justify-content:space-between;
+}
+h1{
+	text-align:center;
+	color:yellow;
+}
+
+.external p {
+	text-align:center;
+	color:yellow;
+	font-size:1.5rem;
+}
 /* .cardBack:hover {
 	transform: translate(0px, -50px);
 	transition: all 0.3s ease-out;
-} */
+	} */
 
 .pokewildex {
 	display: flex;
@@ -475,4 +493,7 @@ footer {
 }
 .x {
 	height: 2rem;
+}
+.x:hover{
+	border:1px red;
 }
