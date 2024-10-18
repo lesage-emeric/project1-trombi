@@ -147,4 +147,8 @@ STYLE CLASSEUR */
 	.cardBackMobile {
 		display: flex;
 	}
+
+.controls{
+	display:none;	
+}
 }
